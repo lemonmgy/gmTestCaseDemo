@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Test Entrance View Controller-->
+        <scene sceneID="Apl-m4-8V1">
+            <objects>
+                <viewController storyboardIdentifier="MYTestEntranceViewController2222" id="hdq-Fw-d8F" customClass="MYTestEntranceViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QQH-Ju-xIa"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pj8-4F-ywU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A3t-5w-6R6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y5M-d4-fZA">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cyN-2G-dMy">
+                                <rect key="frame" x="67" y="296" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="y5M-d4-fZA" secondAttribute="bottom" id="Hbw-GS-YfX"/>
+                            <constraint firstItem="y5M-d4-fZA" firstAttribute="leading" secondItem="A3t-5w-6R6" secondAttribute="leading" id="Ve1-6q-zHq"/>
+                            <constraint firstAttribute="trailing" secondItem="y5M-d4-fZA" secondAttribute="trailing" id="YpO-5l-mnJ"/>
+                            <constraint firstItem="y5M-d4-fZA" firstAttribute="top" secondItem="QQH-Ju-xIa" secondAttribute="bottom" id="gzA-tU-y55"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView1" destination="y5M-d4-fZA" id="yVi-pY-nyD"/>
+                        <outlet property="imageView2" destination="cyN-2G-dMy" id="uIm-gC-60q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HES-dr-xqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="381.60000000000002" y="-191.1544227886057"/>
+        </scene>
+    </scenes>
+</document>
