@@ -40,7 +40,7 @@
 
 - (void)topButtonClick:(UIBarButtonItem *)sender {
     
-    [self.navigationController pushViewController:[NSClassFromString(@"MYWebViewViewController") new] animated:YES];
+    [self.navigationController pushViewController:[NSClassFromString(@"GMHitViewViewController") new] animated:YES];
     
 }
 

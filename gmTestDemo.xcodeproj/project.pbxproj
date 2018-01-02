@@ -10,6 +10,10 @@
 		351F8B181E6926E3008763B7 /* MYCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 351F8B161E6926E3008763B7 /* MYCameraViewController.m */; };
 		351F8B191E6926E3008763B7 /* MYCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 351F8B171E6926E3008763B7 /* MYCameraViewController.xib */; };
 		351F8B1C1E694AB3008763B7 /* MYMediaTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 351F8B1B1E694AB3008763B7 /* MYMediaTools.m */; };
+		354C98F41FF62E4800EA4BF3 /* GMHitViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C98F31FF62E4800EA4BF3 /* GMHitViewViewController.m */; };
+		354C98F71FF62F1A00EA4BF3 /* GMHitBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C98F61FF62F1A00EA4BF3 /* GMHitBackView.m */; };
+		354C98FA1FF62F2900EA4BF3 /* GMHitCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C98F91FF62F2900EA4BF3 /* GMHitCenterView.m */; };
+		354C98FD1FF639A600EA4BF3 /* GMHitBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C98FC1FF639A600EA4BF3 /* GMHitBackButton.m */; };
 		355A6E831E6D11A40030C206 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355A6E821E6D11A40030C206 /* Launch Screen.storyboard */; };
 		355D07F01E34519E001C6195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 355D07EF1E34519E001C6195 /* main.m */; };
 		355D07F31E34519E001C6195 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 355D07F21E34519E001C6195 /* AppDelegate.m */; };
@@ -85,6 +89,14 @@
 		351F8B1A1E694AB3008763B7 /* MYMediaTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYMediaTools.h; sourceTree = "<group>"; };
 		351F8B1B1E694AB3008763B7 /* MYMediaTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYMediaTools.m; sourceTree = "<group>"; };
 		352DD7B51E4973AF004F4598 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		354C98F21FF62E4800EA4BF3 /* GMHitViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMHitViewViewController.h; sourceTree = "<group>"; };
+		354C98F31FF62E4800EA4BF3 /* GMHitViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHitViewViewController.m; sourceTree = "<group>"; };
+		354C98F51FF62F1A00EA4BF3 /* GMHitBackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMHitBackView.h; sourceTree = "<group>"; };
+		354C98F61FF62F1A00EA4BF3 /* GMHitBackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHitBackView.m; sourceTree = "<group>"; };
+		354C98F81FF62F2900EA4BF3 /* GMHitCenterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMHitCenterView.h; sourceTree = "<group>"; };
+		354C98F91FF62F2900EA4BF3 /* GMHitCenterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHitCenterView.m; sourceTree = "<group>"; };
+		354C98FB1FF639A600EA4BF3 /* GMHitBackButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMHitBackButton.h; sourceTree = "<group>"; };
+		354C98FC1FF639A600EA4BF3 /* GMHitBackButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHitBackButton.m; sourceTree = "<group>"; };
 		355A6E821E6D11A40030C206 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		355D07EB1E34519E001C6195 /* gmTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gmTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		355D07EF1E34519E001C6195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -234,6 +246,21 @@
 				351F8B1B1E694AB3008763B7 /* MYMediaTools.m */,
 			);
 			path = Camera;
+			sourceTree = "<group>";
+		};
+		354C98F11FF62E1B00EA4BF3 /*  hitTestView */ = {
+			isa = PBXGroup;
+			children = (
+				354C98F21FF62E4800EA4BF3 /* GMHitViewViewController.h */,
+				354C98F31FF62E4800EA4BF3 /* GMHitViewViewController.m */,
+				354C98F51FF62F1A00EA4BF3 /* GMHitBackView.h */,
+				354C98F61FF62F1A00EA4BF3 /* GMHitBackView.m */,
+				354C98F81FF62F2900EA4BF3 /* GMHitCenterView.h */,
+				354C98F91FF62F2900EA4BF3 /* GMHitCenterView.m */,
+				354C98FB1FF639A600EA4BF3 /* GMHitBackButton.h */,
+				354C98FC1FF639A600EA4BF3 /* GMHitBackButton.m */,
+			);
+			path = " hitTestView";
 			sourceTree = "<group>";
 		};
 		355D07E21E34519E001C6195 = {
@@ -519,7 +546,6 @@
 		35F3BBAE1E5D77550066773A /* SystemControls */ = {
 			isa = PBXGroup;
 			children = (
-				35F3BBF11E5D81380066773A /* Audio */,
 				35F3BBAF1E5D77550066773A /* AddressBook */,
 				35F3BBB21E5D77550066773A /* Collection */,
 				35F3BBB51E5D77550066773A /* UIBezierPath */,
@@ -569,19 +595,13 @@
 		35F3BBBD1E5D77550066773A /* UIEffect */ = {
 			isa = PBXGroup;
 			children = (
+				354C98F11FF62E1B00EA4BF3 /*  hitTestView */,
 				35F3BBBE1E5D77550066773A /* MYtestDocumentsViewController.h */,
 				35F3BBBF1E5D77550066773A /* MYtestDocumentsViewController.m */,
 				35F3BBC01E5D77550066773A /* MYUnlockViewController.h */,
 				35F3BBC11E5D77550066773A /* MYUnlockViewController.m */,
 			);
 			path = UIEffect;
-			sourceTree = "<group>";
-		};
-		35F3BBF11E5D81380066773A /* Audio */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Audio;
 			sourceTree = "<group>";
 		};
 		3DA2162763C0913BEA9E3634 /* Frameworks */ = {
@@ -630,8 +650,8 @@
 		355D07E31E34519E001C6195 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = MY;
-				LastUpgradeCheck = 0820;
+				CLASSPREFIX = GM;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = lemonmgy;
 				TargetAttributes = {
 					355D07EA1E34519E001C6195 = {
@@ -750,13 +770,16 @@
 				35B99ED01F3975EB00BDA78C /* MYCalendarSwitchView.m in Sources */,
 				35F3BBD01E5D77550066773A /* GMInteractiveTransition.m in Sources */,
 				35F3BBD81E5D77550066773A /* myview.m in Sources */,
+				354C98FD1FF639A600EA4BF3 /* GMHitBackButton.m in Sources */,
 				35AA80341E94CEFC001C8870 /* BrokenLineView.m in Sources */,
 				35F3BBD51E5D77550066773A /* MYCIFilterViewController.m in Sources */,
 				35F3BBC81E5D77550066773A /* GMCollectionView.m in Sources */,
 				35F3BBDE1E5D77550066773A /* PanViewController.m in Sources */,
 				35F3BBCA1E5D77550066773A /* GMPhotosUtils.m in Sources */,
+				354C98F71FF62F1A00EA4BF3 /* GMHitBackView.m in Sources */,
 				35F3BBEB1E5D77550066773A /* SearchController.m in Sources */,
 				35F3BBD71E5D77550066773A /* MYRotaryViewController.m in Sources */,
+				354C98FA1FF62F2900EA4BF3 /* GMHitCenterView.m in Sources */,
 				355D08971E3451F7001C6195 /* BaseViewController.m in Sources */,
 				35F3BBE81E5D77550066773A /* YXMyCollectionViewController.m in Sources */,
 				35F3BBC71E5D77550066773A /* MYIndicatorView.m in Sources */,
@@ -774,6 +797,7 @@
 				355D08E31E345518001C6195 /* UIViewController+MYPush.m in Sources */,
 				35F3BBCD1E5D77550066773A /* MYPhotosViewController.m in Sources */,
 				35F3BBEA1E5D77550066773A /* MYUISearchBar.m in Sources */,
+				354C98F41FF62E4800EA4BF3 /* GMHitViewViewController.m in Sources */,
 				35F3BBD31E5D77550066773A /* GMPostTableViewCell.m in Sources */,
 				35F3BBED1E5D77550066773A /* MYUnlockViewController.m in Sources */,
 				35F3BBC21E5D77550066773A /* TransitionsAnimationBeganViewController.m in Sources */,
@@ -805,7 +829,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -813,7 +839,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -852,7 +882,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -860,7 +892,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
