@@ -159,7 +159,7 @@ static NSString *alertLabel = @"alertLabel";
     }
     
     label = [UILabel new];
-    label.backgroundColor = [UIColor colorWithRed:139/255.0 green:139/255.0 blue:139/255.0 alpha:1];
+    label.backgroundColor = [UIColor colorWithRed:(arc4random()%255)/255.0 green:(arc4random()%255)/255.0 blue:(arc4random()%255)/255.0 alpha:1];
     label.font = [UIFont systemFontOfSize:15];
     label.layer.masksToBounds = YES;
     label.layer.cornerRadius = 5;
