@@ -10,6 +10,9 @@
 		351F8B181E6926E3008763B7 /* MYCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 351F8B161E6926E3008763B7 /* MYCameraViewController.m */; };
 		351F8B191E6926E3008763B7 /* MYCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 351F8B171E6926E3008763B7 /* MYCameraViewController.xib */; };
 		351F8B1C1E694AB3008763B7 /* MYMediaTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 351F8B1B1E694AB3008763B7 /* MYMediaTools.m */; };
+		3528E5E11FFB2B9F007A7FC2 /* GMGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3528E5E01FFB2B9F007A7FC2 /* GMGCDViewController.m */; };
+		3528E5E41FFB2DD0007A7FC2 /* UIViewController+GMExchangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 3528E5E31FFB2DD0007A7FC2 /* UIViewController+GMExchangeMethod.m */; };
+		3528E5E91FFB9C2E007A7FC2 /* GMTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3528E5E81FFB9C2E007A7FC2 /* GMTimerViewController.m */; };
 		354C98F41FF62E4800EA4BF3 /* GMHitViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C98F31FF62E4800EA4BF3 /* GMHitViewViewController.m */; };
 		354C98F71FF62F1A00EA4BF3 /* GMHitBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C98F61FF62F1A00EA4BF3 /* GMHitBackView.m */; };
 		354C98FA1FF62F2900EA4BF3 /* GMHitCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C98F91FF62F2900EA4BF3 /* GMHitCenterView.m */; };
@@ -88,6 +91,12 @@
 		351F8B171E6926E3008763B7 /* MYCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYCameraViewController.xib; sourceTree = "<group>"; };
 		351F8B1A1E694AB3008763B7 /* MYMediaTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYMediaTools.h; sourceTree = "<group>"; };
 		351F8B1B1E694AB3008763B7 /* MYMediaTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYMediaTools.m; sourceTree = "<group>"; };
+		3528E5DF1FFB2B9F007A7FC2 /* GMGCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMGCDViewController.h; sourceTree = "<group>"; };
+		3528E5E01FFB2B9F007A7FC2 /* GMGCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMGCDViewController.m; sourceTree = "<group>"; };
+		3528E5E21FFB2DD0007A7FC2 /* UIViewController+GMExchangeMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GMExchangeMethod.h"; sourceTree = "<group>"; };
+		3528E5E31FFB2DD0007A7FC2 /* UIViewController+GMExchangeMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GMExchangeMethod.m"; sourceTree = "<group>"; };
+		3528E5E71FFB9C2E007A7FC2 /* GMTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMTimerViewController.h; sourceTree = "<group>"; };
+		3528E5E81FFB9C2E007A7FC2 /* GMTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMTimerViewController.m; sourceTree = "<group>"; };
 		352DD7B51E4973AF004F4598 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		354C98F21FF62E4800EA4BF3 /* GMHitViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMHitViewViewController.h; sourceTree = "<group>"; };
 		354C98F31FF62E4800EA4BF3 /* GMHitViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHitViewViewController.m; sourceTree = "<group>"; };
@@ -100,8 +109,8 @@
 		355A6E821E6D11A40030C206 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		355D07EB1E34519E001C6195 /* gmTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gmTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		355D07EF1E34519E001C6195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		355D07F11E34519E001C6195 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
-		355D07F21E34519E001C6195 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		355D07F11E34519E001C6195 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		355D07F21E34519E001C6195 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		355D07FA1E34519E001C6195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		355D07FF1E34519E001C6195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		355D08071E3451F7001C6195 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -248,6 +257,24 @@
 			path = Camera;
 			sourceTree = "<group>";
 		};
+		3528E5DE1FFB2B8C007A7FC2 /* gcd */ = {
+			isa = PBXGroup;
+			children = (
+				3528E5DF1FFB2B9F007A7FC2 /* GMGCDViewController.h */,
+				3528E5E01FFB2B9F007A7FC2 /* GMGCDViewController.m */,
+			);
+			path = gcd;
+			sourceTree = "<group>";
+		};
+		3528E5E61FFB9C21007A7FC2 /* timer */ = {
+			isa = PBXGroup;
+			children = (
+				3528E5E71FFB9C2E007A7FC2 /* GMTimerViewController.h */,
+				3528E5E81FFB9C2E007A7FC2 /* GMTimerViewController.m */,
+			);
+			path = timer;
+			sourceTree = "<group>";
+		};
 		354C98F11FF62E1B00EA4BF3 /*  hitTestView */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,6 +327,8 @@
 		355D07EE1E34519E001C6195 /* MYTestEntranceViewController */ = {
 			isa = PBXGroup;
 			children = (
+				355D07F11E34519E001C6195 /* AppDelegate.h */,
+				355D07F21E34519E001C6195 /* AppDelegate.m */,
 				355D07FA1E34519E001C6195 /* Assets.xcassets */,
 				355A6E821E6D11A40030C206 /* Launch Screen.storyboard */,
 				355D07FF1E34519E001C6195 /* Info.plist */,
@@ -320,8 +349,6 @@
 		355D08061E3451F7001C6195 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				355D07F11E34519E001C6195 /* AppDelegate.h */,
-				355D07F21E34519E001C6195 /* AppDelegate.m */,
 				355D08071E3451F7001C6195 /* BaseViewController.h */,
 				355D08081E3451F7001C6195 /* BaseViewController.m */,
 				355D08091E3451F7001C6195 /* BaseViewController.xib */,
@@ -363,6 +390,8 @@
 				355D08DF1E345518001C6195 /* NSString+MYString.m */,
 				355D08E01E345518001C6195 /* UIViewController+MYPush.h */,
 				355D08E11E345518001C6195 /* UIViewController+MYPush.m */,
+				3528E5E21FFB2DD0007A7FC2 /* UIViewController+GMExchangeMethod.h */,
+				3528E5E31FFB2DD0007A7FC2 /* UIViewController+GMExchangeMethod.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -595,6 +624,8 @@
 		35F3BBBD1E5D77550066773A /* UIEffect */ = {
 			isa = PBXGroup;
 			children = (
+				3528E5E61FFB9C21007A7FC2 /* timer */,
+				3528E5DE1FFB2B8C007A7FC2 /* gcd */,
 				354C98F11FF62E1B00EA4BF3 /*  hitTestView */,
 				35F3BBBE1E5D77550066773A /* MYtestDocumentsViewController.h */,
 				35F3BBBF1E5D77550066773A /* MYtestDocumentsViewController.m */,
@@ -759,6 +790,7 @@
 				355D08E21E345518001C6195 /* NSString+MYString.m in Sources */,
 				35F3BBE51E5D77550066773A /* MYLasetViewController.m in Sources */,
 				35F3BBDC1E5D77550066773A /* CGAffineTransformViewController.m in Sources */,
+				3528E5E91FFB9C2E007A7FC2 /* GMTimerViewController.m in Sources */,
 				355D07F31E34519E001C6195 /* AppDelegate.m in Sources */,
 				35F3BBD21E5D77550066773A /* GMPictureSwitchView.m in Sources */,
 				35F3BBCB1E5D77550066773A /* GMPhotosViewController.m in Sources */,
@@ -791,6 +823,7 @@
 				35F3BBE01E5D77550066773A /* MYAnimatedEndViewController.m in Sources */,
 				351F8B181E6926E3008763B7 /* MYCameraViewController.m in Sources */,
 				35F3BBF01E5D78D40066773A /* MYIndicatorViewController.m in Sources */,
+				3528E5E41FFB2DD0007A7FC2 /* UIViewController+GMExchangeMethod.m in Sources */,
 				35F3BBE11E5D77550066773A /* MYAnimatedStartViewController.m in Sources */,
 				35F3BBDB1E5D77550066773A /* MYShufflingViewController.m in Sources */,
 				35F3BBE41E5D77550066773A /* MYHiddenNavViewController.m in Sources */,
@@ -802,6 +835,7 @@
 				35F3BBED1E5D77550066773A /* MYUnlockViewController.m in Sources */,
 				35F3BBC21E5D77550066773A /* TransitionsAnimationBeganViewController.m in Sources */,
 				35F3BBD61E5D77550066773A /* MYRotaryView.m in Sources */,
+				3528E5E11FFB2B9F007A7FC2 /* GMGCDViewController.m in Sources */,
 				35F3BBCC1E5D77550066773A /* GMProgressView.m in Sources */,
 				355D089A1E3451F7001C6195 /* MYEntranceViewController.m in Sources */,
 				35F3BBD11E5D77550066773A /* GMPictureBrowserViewController.m in Sources */,

@@ -13,7 +13,7 @@
 
 #define CustomControls  @[@"TransitionsAnimationBeganViewController",@"MYCalendarViewController",@"MYIndicatorViewController",@"MYPhotosViewController",@"GMPhotosViewController",@"GMPostViewController",@"MYRotaryViewController",@"MYCIFilterViewController",@"MYShufflingViewController",@"MYCameraViewController",@"MYWebViewViewController",@"MYDownLoadViewController",@"",@"",@"",@"",@""]
 
-#define UIEffect  @[@"MYtestDocumentsViewController",@"MYUnlockViewController",@"GMHitViewViewController",@"",@"",@"",@"",@"",@"",@"",@"",@"",@"",@"",@"",@"",@""]
+#define UIEffect  @[@"MYtestDocumentsViewController",@"MYUnlockViewController",@"GMHitViewViewController",@"GMGCDViewController",@"GMTimerViewController",@"",@"",@"",@"",@"",@"",@"",@"",@"",@"",@"",@""]
 
 #define navanimation @[@"MYHiddenNavViewController",@"MYGradientViewController",@"MYAnimatedStartViewController",@"",@"",@"",@""]
 

@@ -714,6 +714,7 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = "-Wno-strict-prototypes";
 			};
 			name = Release;
 		};
@@ -885,6 +886,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+				WARNING_CFLAGS = "-Wno-strict-prototypes";
 			};
 			name = Debug;
 		};

@@ -32,13 +32,13 @@
     GMHitCenterView *centerView = [[GMHitCenterView alloc] initWithFrame:CGRectMake(50, 0, 100, 100)];
     centerView.backgroundColor = [UIColor purpleColor];
     self.centerView = centerView;
-    
+    [backView addSubview:centerView];
+
     GMHitBackButton *centerButton = [[GMHitBackButton alloc] initWithFrame:CGRectMake(0, 50, 150, 50)];
     centerButton.backgroundColor = [UIColor orangeColor];
     self.centerButton = centerButton;
-    [backView addSubview:centerButton];
+    [centerView addSubview:centerButton];
     [centerButton addTarget:self action:@selector(centerButtonClick:) forControlEvents:UIControlEventTouchUpInside];
-    [backView addSubview:centerView];
 
 }
 
