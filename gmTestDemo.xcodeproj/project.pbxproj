@@ -37,6 +37,7 @@
 		35AA80341E94CEFC001C8870 /* BrokenLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AA80331E94CEFC001C8870 /* BrokenLineView.m */; };
 		35ACDC641E6D06CC00DC8A11 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35ACDC631E6D06CC00DC8A11 /* Storyboard.storyboard */; };
 		35B99ED01F3975EB00BDA78C /* MYCalendarSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B99ECF1F3975EB00BDA78C /* MYCalendarSwitchView.m */; };
+		35C3285F1FFCCF36009187D5 /* GMObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C3285E1FFCCF36009187D5 /* GMObserverViewController.m */; };
 		35DEEFB41F14863D00F1B62E /* MYWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DEEFB31F14863D00F1B62E /* MYWebViewViewController.m */; };
 		35DEEFB71F14AB8C00F1B62E /* MYDownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DEEFB61F14AB8C00F1B62E /* MYDownLoadViewController.m */; };
 		35F3BBC21E5D77550066773A /* TransitionsAnimationBeganViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB5D1E5D77550066773A /* TransitionsAnimationBeganViewController.m */; };
@@ -138,6 +139,8 @@
 		35ACDC631E6D06CC00DC8A11 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		35B99ECE1F3975EB00BDA78C /* MYCalendarSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCalendarSwitchView.h; sourceTree = "<group>"; };
 		35B99ECF1F3975EB00BDA78C /* MYCalendarSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCalendarSwitchView.m; sourceTree = "<group>"; };
+		35C3285D1FFCCF36009187D5 /* GMObserverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMObserverViewController.h; sourceTree = "<group>"; };
+		35C3285E1FFCCF36009187D5 /* GMObserverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMObserverViewController.m; sourceTree = "<group>"; };
 		35DEEFB21F14863D00F1B62E /* MYWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYWebViewViewController.h; sourceTree = "<group>"; };
 		35DEEFB31F14863D00F1B62E /* MYWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYWebViewViewController.m; sourceTree = "<group>"; };
 		35DEEFB51F14AB8C00F1B62E /* MYDownLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYDownLoadViewController.h; sourceTree = "<group>"; };
@@ -396,6 +399,15 @@
 			path = category;
 			sourceTree = "<group>";
 		};
+		35C3285C1FFCCF2C009187D5 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				35C3285D1FFCCF36009187D5 /* GMObserverViewController.h */,
+				35C3285E1FFCCF36009187D5 /* GMObserverViewController.m */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
 		35DEEFB11F14862800F1B62E /* webView */ = {
 			isa = PBXGroup;
 			children = (
@@ -624,6 +636,7 @@
 		35F3BBBD1E5D77550066773A /* UIEffect */ = {
 			isa = PBXGroup;
 			children = (
+				35C3285C1FFCCF2C009187D5 /* Observer */,
 				3528E5E61FFB9C21007A7FC2 /* timer */,
 				3528E5DE1FFB2B8C007A7FC2 /* gcd */,
 				354C98F11FF62E1B00EA4BF3 /*  hitTestView */,
@@ -804,6 +817,7 @@
 				35F3BBD81E5D77550066773A /* myview.m in Sources */,
 				354C98FD1FF639A600EA4BF3 /* GMHitBackButton.m in Sources */,
 				35AA80341E94CEFC001C8870 /* BrokenLineView.m in Sources */,
+				35C3285F1FFCCF36009187D5 /* GMObserverViewController.m in Sources */,
 				35F3BBD51E5D77550066773A /* MYCIFilterViewController.m in Sources */,
 				35F3BBC81E5D77550066773A /* GMCollectionView.m in Sources */,
 				35F3BBDE1E5D77550066773A /* PanViewController.m in Sources */,

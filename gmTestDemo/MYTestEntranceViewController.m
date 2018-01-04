@@ -39,7 +39,7 @@
 }
 
 - (void)topButtonClick:(UIBarButtonItem *)sender {
-    [self.navigationController pushViewController:[NSClassFromString(@"GMTimerViewController") new] animated:YES];
+    [self.navigationController pushViewController:[NSClassFromString(@"GMObserverViewController") new] animated:YES];
     
 }
 
