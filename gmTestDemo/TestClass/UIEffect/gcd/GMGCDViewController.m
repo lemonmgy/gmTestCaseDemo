@@ -12,9 +12,12 @@ static NSString *idn = @"UICollectionViewCellID";
 
 @interface GMGCDViewController () <UICollectionViewDelegate,
     UICollectionViewDataSource,
-    UICollectionViewDelegateFlowLayout>
+UICollectionViewDelegateFlowLayout> {
+    dispatch_semaphore_t _sema;
+}
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) NSMutableArray *dataArray;
+@property (nonatomic, assign) int tickets;
 @end
 
 @implementation GMGCDViewController
@@ -78,12 +81,18 @@ static NSString *idn = @"UICollectionViewCellID";
 }
 
 - (NSArray *)titles {
-    return @[@"dispatch_queue",@"bar",@"bars",@"线程2",@"bar2",@"bars3",@"线程3",@"bar4",@"bars5"];
+    return @[@"dispatch_queue",@"dispatch_semaphore",@"asyncSaleTickets",@"线程2",@"bar2",@"bars3",@"线程3",@"bar4",@"bars5"];
 }
 
 - (void)dispatch_queue {
-    kShowAlert(@"dispatch_queue");
+   
+    dispatch_queue_t serial_queue = dispatch_queue_create("com.lemonmgy.serial", DISPATCH_QUEUE_SERIAL);
+    dispatch_queue_t concurrent_queue = dispatch_queue_create("com.lemonmgy.concurrent", DISPATCH_QUEUE_CONCURRENT);
+}
 
+- (void)dispatch_semaphore {
+    kShowAlert(@"dispatch_queue");
+    
     dispatch_queue_t queue_t =  dispatch_queue_create("com.lemonmgy.queue", DISPATCH_QUEUE_CONCURRENT);
     
     {
@@ -97,7 +106,7 @@ static NSString *idn = @"UICollectionViewCellID";
         dispatch_async(queue_t, ^{
             NSLog(@"111");
             dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
-
+            
             sleep(3);
             NSLog(@"111睡醒了");
             dispatch_semaphore_signal(sema);
@@ -105,7 +114,7 @@ static NSString *idn = @"UICollectionViewCellID";
         
         dispatch_async(queue_t, ^{
             NSLog(@"222");
-
+            
             dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
             
             sleep(3);
@@ -119,7 +128,7 @@ static NSString *idn = @"UICollectionViewCellID";
             NSLog(@"3333333waiceng睡醒了");
             dispatch_semaphore_signal(sema);
         });
-
+        
         dispatch_async(queue_t, ^{
             NSLog(@"444444444");
             dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
@@ -133,8 +142,73 @@ static NSString *idn = @"UICollectionViewCellID";
             NSLog(@"xxxxxxxx=%@",[NSThread currentThread]);
             dispatch_semaphore_signal(sema);
         });
-
+        
     });
-  }
 
+}
+
+
+- (void)asyncSaleTickets {
+    dispatch_queue_t concurrent_queue = dispatch_queue_create("com.lemonmgy.concurrent", DISPATCH_QUEUE_CONCURRENT);
+    self.tickets = 100;
+    if (!_sema) {
+        _sema = dispatch_semaphore_create(1);
+
+    }
+    [self cycleNumber:10 handler:^(int number) {
+        dispatch_async(concurrent_queue, ^{
+            [self saleTickets];
+        });
+    }];
+
+}
+
+
+- (void)saleTickets
+{
+    // while 循环保证每个窗口都可以单独把所有的票卖完
+    while (YES) {
+        
+        // 模拟网络延迟
+        [self semaphoreWaitHandler:^{
+            [NSThread sleepForTimeInterval:0.5];
+            // 判断是否有票
+            if (self.tickets>0) {
+                // 有票就卖
+                self.tickets--;
+                // 卖完一张票就提示用户余票数
+                NSLog(@"剩余票数 => %zd %@",self.tickets,[NSThread currentThread]);
+            }
+            
+        }];
+        if (self.tickets<=0) {
+            // 没有就提示用户
+            NSLog(@"没票了");
+            // 此处要结束循环,不然会死循环
+            break;
+        }
+    }
+}
+
+
+
+
+
+- (void)semaphoreWaitHandler:(void(^)(void))handler {
+    dispatch_semaphore_wait(_sema, DISPATCH_TIME_FOREVER);
+    if(handler) handler();
+    dispatch_semaphore_signal(_sema);
+}
+
+
+
+
+
+- (void)cycleNumber:(int)number handler:(void(^)(int number))handler {
+    int i = 0;
+    while (i < number) {
+        handler(i);
+        i++;
+    }
+}
 @end
