@@ -9,6 +9,7 @@
 #import "MYTestEntranceViewController.h"
 #import "BrokenLineView.h"
 #import "MYCalendarViewController.h"
+#import "UIButton+YX.h"
 
 @interface MYTestEntranceViewController (){
     dispatch_source_t _source;
@@ -35,7 +36,34 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.topItemNameArr = (NSMutableArray *)@[@"加载",@"开始"];
-  
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
+    btn.frame = CGRectMake(100, 100, 150, 150);
+    //    btn.center = self.view.center;
+    [btn addTarget:self action:@selector(bottomClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    btn.backgroundColor = [UIColor redColor];
+    [btn expandClickAreaWithTop:20 left:20 bottom:50 right:50];
+    {
+        
+        UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
+        btn.frame = CGRectMake(100, 100, 200, 200);
+        //    btn.center = self.view.center;
+        [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:btn];
+        btn.backgroundColor = [UIColor greenColor];
+        
+    }
+    
+    
+}
+
+- (void)btnClick {
+    NSLog(@"btnClick");
+}
+
+
+- (void)bottomClick {
+    NSLog(@"bottomClick");
 }
 
 - (void)topButtonClick:(UIBarButtonItem *)sender {
