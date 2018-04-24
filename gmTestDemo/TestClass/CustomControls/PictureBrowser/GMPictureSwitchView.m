@@ -255,7 +255,7 @@
     NSArray *pageArr = @[@([self prePage]), @(self.currentIndex),@([self sufPage])];
    
     [pageArr enumerateObjectsUsingBlock:^(NSNumber *page, NSUInteger idx, BOOL * _Nonnull stop) {
-        GMIconItem *model = _dataSourceArray[[page integerValue]];
+        GMIconItem *model = self->_dataSourceArray[[page integerValue]];
         if (self.localPhotoAlbum) {
             [self getlocalPhotoAlbumWithImage:idx andIconModel:model];
         }else {

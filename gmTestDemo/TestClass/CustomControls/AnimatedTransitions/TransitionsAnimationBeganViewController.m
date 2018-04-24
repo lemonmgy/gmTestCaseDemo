@@ -11,7 +11,7 @@
 //转场动画
 @interface MyPresentationConytollrt()
 @property (nonatomic, strong) UIView *dimmingView;
-@property (nonatomic,strong) void(^hidssView)();
+@property (nonatomic,strong) void(^hidssView)(void);
 @end
 
 

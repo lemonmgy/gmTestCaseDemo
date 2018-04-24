@@ -217,7 +217,7 @@ static NSString *lastDataArrID = @"lastDataArrIDTableViewCellid";
             [self complate];
             
             
-            NSNumber *lastindexPath = _faImageViewDict[@"lastindexPath"];
+            NSNumber *lastindexPath = self->_faImageViewDict[@"lastindexPath"];
             if (lastindexPath) {
                 
                 [self.touchTableView setContentOffset:CGPointMake(0, [lastindexPath floatValue])];
@@ -227,8 +227,8 @@ static NSString *lastDataArrID = @"lastDataArrIDTableViewCellid";
             }
             
             
-            id obj2 = _faImageViewDict[@"currentindexPath"];
-            obj2 ? [_faImageViewDict setObject:obj2 forKey:@"lastindexPath"]:@"";
+            id obj2 = self->_faImageViewDict[@"currentindexPath"];
+            obj2 ? [self->_faImageViewDict setObject:obj2 forKey:@"lastindexPath"]:@"";
 
         }];
     } else {

@@ -17,7 +17,7 @@ typedef void(^MYCalendarClickBlock)(MYCalendarDayItem *dayItem);
 @property (nonatomic, strong) NSArray *dataSourceArray;
 @property (nonatomic, copy) MYCalendarSwitchBlock switchSuccessBlock;//切换成功
 @property (nonatomic, copy) MYCalendarClickBlock clickItemBlock;//点击了item
-@property (nonatomic, copy) void(^updateLayout)();
+@property (nonatomic, copy) void(^updateLayout)(void);
 
 - (void)updateDatas;//刷新数据
 @end

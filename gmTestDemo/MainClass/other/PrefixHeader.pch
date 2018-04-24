@@ -18,7 +18,6 @@
 #import "BaseViewController.h"
 #import "MainViewController.h"
 #import "MYNavigationController.h"
-#import "UMMobClick/MobClick.h"
 
 
 #define kShowAlert(msg)     [BaseViewController show:msg andForever:NO]

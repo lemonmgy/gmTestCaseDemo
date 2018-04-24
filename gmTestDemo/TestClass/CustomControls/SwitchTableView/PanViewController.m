@@ -218,7 +218,7 @@ static BOOL openPan = NO;
             [self complate];
             
             openPan = YES;
-            NSNumber *lastindexPath = _faImageViewDict[@"lastindexPath"];
+            NSNumber *lastindexPath = self->_faImageViewDict[@"lastindexPath"];
             if (lastindexPath) {
                 
                 [self.panTableView setContentOffset:CGPointMake(0, [lastindexPath floatValue]) animated:NO];
@@ -228,8 +228,8 @@ static BOOL openPan = NO;
             }
             
             
-            id obj2 = _faImageViewDict[@"currentindexPath"];
-            obj2 ? [_faImageViewDict setObject:obj2 forKey:@"lastindexPath"]:@"";
+            id obj2 = self->_faImageViewDict[@"currentindexPath"];
+            obj2 ? [self->_faImageViewDict setObject:obj2 forKey:@"lastindexPath"]:@"";
 
         }];
     } else {
@@ -310,7 +310,7 @@ static BOOL openPan = NO;
             [self complate];
             
             openPan = YES;
-            NSNumber *lastindexPath = _faImageViewDict[@"lastindexPath"];
+            NSNumber *lastindexPath = self->_faImageViewDict[@"lastindexPath"];
             if (lastindexPath) {
                 [self.panTableView setContentOffset:CGPointMake(0, [lastindexPath floatValue]) animated:NO];
             }else {
@@ -319,8 +319,8 @@ static BOOL openPan = NO;
             }
             
             
-            id obj2 = _faImageViewDict[@"currentindexPath"];
-            obj2 ? [_faImageViewDict setObject:obj2 forKey:@"lastindexPath"]:@"";
+            id obj2 = self->_faImageViewDict[@"currentindexPath"];
+            obj2 ? [self->_faImageViewDict setObject:obj2 forKey:@"lastindexPath"]:@"";
             
         }];
         

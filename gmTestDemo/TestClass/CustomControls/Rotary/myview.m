@@ -143,7 +143,7 @@
     
 }
 
-- (void)drawContext:(CGContextRef)context block:(void(^)())block {
+- (void)drawContext:(CGContextRef)context block:(void(^)(void))block {
     CGContextSaveGState(context);
     block();
     CGContextRestoreGState(context);

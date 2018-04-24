@@ -21,8 +21,9 @@
 
 - (void)clearImageData {
     
-    [[SDImageCache sharedImageCache] cleanDisk];
-    [[SDImageCache sharedImageCache] clearDisk];
+    [[SDImageCache sharedImageCache] clearDiskOnCompletion:^{
+        
+    }];
     [[SDImageCache sharedImageCache] clearMemory];
     kShowForever(@"清理中...");
     __weak __typeof (self) weakSelf = self;

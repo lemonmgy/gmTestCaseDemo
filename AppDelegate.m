@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "MYTestEntranceViewController.h"
 #import "MYNavigationController.h"
-#import "UMMobClick/MobClick.h"
+
 
 @interface AppDelegate ()
 
@@ -28,13 +28,6 @@
     [self newLanchImage];
     
     [self.window makeKeyAndVisible];
-    
-    
-    
-    UMConfigInstance.appKey = @"596daf2cbbea8369490005f9";
-    UMConfigInstance.channelId = @"App Store";
-    [MobClick startWithConfigure:UMConfigInstance];//配置以上参数后调用此方法初始化SDK！
-    
     return YES;
 }
 
