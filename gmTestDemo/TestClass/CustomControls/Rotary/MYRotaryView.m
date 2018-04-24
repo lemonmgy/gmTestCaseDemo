@@ -266,7 +266,7 @@
         
         _lastOffset = [self areaWithOffset:offset andBaseAngle:_rotaryView.angleBase andEnd:YES];
         [UIView animateWithDuration:0.3 animations:^{
-            _rotaryView.transform = CGAffineTransformMakeRotation(_lastOffset);
+            self->_rotaryView.transform = CGAffineTransformMakeRotation(self->_lastOffset);
         }];
         
      }

@@ -46,7 +46,7 @@
     self.switchView = [[MYCalendarSwitchView alloc] initWithFrame:CGRectMake(0,200, kSCREEN_WIDTH, 250)];
     [self.view addSubview:self.switchView];
     
-    __weak __typeof (self) weakSelf = self;
+//    __weak __typeof (self) weakSelf = self;
     [self.switchView setSwitchSuccessBlock:^(MYCalendarMonthItem *monthModel) {
         
     }];

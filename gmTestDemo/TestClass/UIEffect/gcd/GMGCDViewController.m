@@ -86,8 +86,8 @@ UICollectionViewDelegateFlowLayout> {
 
 - (void)dispatch_queue {
    
-    dispatch_queue_t serial_queue = dispatch_queue_create("com.lemonmgy.serial", DISPATCH_QUEUE_SERIAL);
-    dispatch_queue_t concurrent_queue = dispatch_queue_create("com.lemonmgy.concurrent", DISPATCH_QUEUE_CONCURRENT);
+//    dispatch_queue_t serial_queue = dispatch_queue_create("com.lemonmgy.serial", DISPATCH_QUEUE_SERIAL);
+//    dispatch_queue_t concurrent_queue = dispatch_queue_create("com.lemonmgy.concurrent", DISPATCH_QUEUE_CONCURRENT);
 }
 
 - (void)dispatch_semaphore {
@@ -177,7 +177,7 @@ UICollectionViewDelegateFlowLayout> {
                 // 有票就卖
                 self.tickets--;
                 // 卖完一张票就提示用户余票数
-                NSLog(@"剩余票数 => %zd %@",self.tickets,[NSThread currentThread]);
+                NSLog(@"剩余票数 => %d %@",self.tickets,[NSThread currentThread]);
             }
             
         }];
