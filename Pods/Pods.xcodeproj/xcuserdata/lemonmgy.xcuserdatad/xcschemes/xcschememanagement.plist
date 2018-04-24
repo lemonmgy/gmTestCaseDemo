@@ -3,26 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>AFNetworking.xcscheme</key>
+		<key>01E07CF5D02AD72DB46C38E7B824AC70</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>Pods-gmTestDemo.xcscheme</key>
+		<key>99197738B9B8D7D04A124C0154A5C07E</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>ReactiveObjC.xcscheme</key>
+		<key>9E033EDB5EC0819481B0546434FA577B</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>SDWebImage.xcscheme</key>
+		<key>FE60BB4CE6772CAADF3DF60E92BD99B8</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
