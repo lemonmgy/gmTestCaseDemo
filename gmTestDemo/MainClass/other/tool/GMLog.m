@@ -11,8 +11,6 @@
 
 @implementation GMLog
 
-#define log_number(value,name) NSLog(@"%@ == {%@}",name,@(value));
-
 void log_objc(id obj, id name) {
     NSLog(@"%@ == {%@}",name,obj);
 }

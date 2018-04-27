@@ -345,6 +345,7 @@
 				355A6E821E6D11A40030C206 /* Launch Screen.storyboard */,
 				355D07FF1E34519E001C6195 /* Info.plist */,
 				355D07EF1E34519E001C6195 /* main.m */,
+				355D08291E3451F7001C6195 /* PrefixHeader.pch */,
 			);
 			name = MYTestEntranceViewController;
 			sourceTree = "<group>";
@@ -378,7 +379,6 @@
 				35790C112091D9BE00D09674 /* tool */,
 				355D08DD1E3453A0001C6195 /* category */,
 				355D081E1E3451F7001C6195 /* icon */,
-				355D08291E3451F7001C6195 /* PrefixHeader.pch */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -975,7 +975,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M2SCEZCPAN;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/MainClass/other/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT/gmTestDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = gmTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -992,7 +992,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M2SCEZCPAN;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/MainClass/other/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT/gmTestDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = gmTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

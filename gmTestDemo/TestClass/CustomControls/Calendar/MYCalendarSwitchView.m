@@ -199,7 +199,7 @@
     }
     
     CGFloat x = scrollView.contentOffset.x;
-    kNumberLog(x, @"");
+    log_number(x, @"");
     if (x > 0 && x < 2*kSCREEN_WIDTH) {
         return;
     }

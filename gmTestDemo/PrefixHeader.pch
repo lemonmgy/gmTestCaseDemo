@@ -15,20 +15,13 @@
 #import "TestClass.h"
 #import "NSString+MYString.h"
 #import "UIViewController+MYPush.h"
+
 #import "UIImageView+WebCache.h"
 #import "BaseViewController.h"
 #import "MainViewController.h"
 #import "MYNavigationController.h"
 
-
-#define kShowAlert(msg)     [BaseViewController show:msg andForever:NO]
-#define kShowForever(msg)   [BaseViewController show:msg andForever:YES]
-#define kHiddenForever(msg) [BaseViewController hidden:msg]
-
-#if DEBUG
-#define NSLog(FORMAT, ...) fprintf(stderr,"[%s:%d行] %s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
-#else
-#define NSLog(FORMAT, ...) nil
-#endif
+#import "GMLog.h"
+#import "GMAlert.h"
 
 #endif /* PrefixHeader_pch */
