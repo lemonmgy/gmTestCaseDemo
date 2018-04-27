@@ -60,6 +60,7 @@
 
     self.calendar = [NSCalendar currentCalendar];
     kNameLog(@"开始", nil);
+
     self.monthArray = [self.calendar calendarMonthArrayDataWithNumber:-(12*100) andBaseDate:nil];
     NSMutableArray *lastMonthArray = [self.calendar calendarMonthArrayDataWithNumber:(12*100) andBaseDate:nil];
     [self.monthArray removeLastObject];

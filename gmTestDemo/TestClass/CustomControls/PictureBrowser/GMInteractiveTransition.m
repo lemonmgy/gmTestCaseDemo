@@ -59,7 +59,7 @@
     CGFloat percent = point.y/self.pictureViewController.view.frame.size.height;
     NSLog(@"%f",imageScrollView.contentOffset.y);
     
-    kPointLog(point, @"point");
+    kLogPoint(point, @"point");
 
     switch (pan.state) {
         case UIGestureRecognizerStateBegan:
