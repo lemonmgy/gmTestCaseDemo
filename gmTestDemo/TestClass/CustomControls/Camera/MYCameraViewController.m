@@ -42,7 +42,7 @@
     [super viewDidLoad];
     
     if (![UIImagePickerController isSourceTypeAvailable: UIImagePickerControllerSourceTypeCamera]) { //没有相机设备
-        kShowAlert(@"没有相机");
+        show_alert(@"没有相机");
         self.view = [UIView new];
         return;
     }
@@ -132,7 +132,7 @@
         }
         
     }else {
-        kShowAlert(@"没有闪关灯");
+        show_alert(@"没有闪关灯");
     }
     [device unlockForConfiguration];
 }
@@ -150,7 +150,7 @@
         NSData *jpegData = [AVCaptureStillImageOutput jpegStillImageNSDataRepresentation:imageDataSampleBuffer];
         if (![MYMediaTools judgeIsHavePhotoAblumAuthority]){
             //无权限
-            kShowAlert(@"无权限");
+            show_alert(@"无权限");
             return ;
         }
         [self saveImage:[UIImage imageWithData:jpegData]];
@@ -169,7 +169,7 @@
         if (!success) return;
         NSLog(@"%@",[NSThread currentThread]);
         dispatch_async(dispatch_get_main_queue(), ^{
-            kShowAlert(@"存储成功");
+            show_alert(@"存储成功");
         });
         
         //2,获取相簿

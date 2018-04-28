@@ -48,12 +48,12 @@
     if (camera) {
         sourceType = UIImagePickerControllerSourceTypeCamera;
         if (![UIImagePickerController isSourceTypeAvailable: UIImagePickerControllerSourceTypeCamera]) { //没有相机设备
-            kShowAlert(@"没有相机");
+            show_alert(@"没有相机");
             return;
         }
         
         if ([MYMediaTools judgeIsHaveCameraAuthority]) {//拥有相机权限
-            kShowAlert(@"没有开启相机权限");
+            show_alert(@"没有开启相机权限");
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 [MYMediaTools openTheApplicationSettings];
             });
@@ -62,11 +62,11 @@
     }else {
         sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
         if (![UIImagePickerController isSourceTypeAvailable: UIImagePickerControllerSourceTypePhotoLibrary]) {//相册可用
-            kShowAlert(@"没有开启相机权限");
+            show_alert(@"没有开启相机权限");
             return;
         }
         if (![MYMediaTools judgeIsHavePhotoAblumAuthority]) {//有相册权限
-            kShowAlert(@"没有开启相册权限");
+            show_alert(@"没有开启相册权限");
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 [MYMediaTools openTheApplicationSettings];
             });

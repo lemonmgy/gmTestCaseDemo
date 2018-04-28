@@ -92,7 +92,7 @@
 
 - (void)btnClick {
     if (![self.presentingViewController isKindOfClass:[UITabBarController class]]) {
-        kShowAlert(@"到头了");
+        show_alert(@"到头了");
         return;
     }
     [self dismissViewControllerAnimated:YES completion:nil];

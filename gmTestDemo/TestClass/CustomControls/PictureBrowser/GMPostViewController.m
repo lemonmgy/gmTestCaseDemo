@@ -25,12 +25,12 @@
         
     }];
     [[SDImageCache sharedImageCache] clearMemory];
-    kShowForever(@"清理中...");
+    show_alert(@"清理中...");
     __weak __typeof (self) weakSelf = self;
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
         NSString *alert = [NSString stringWithFormat:@"getSize== %lu getDiskCount =%lu",(unsigned long)[[SDImageCache sharedImageCache] getSize], (unsigned long)[[SDImageCache sharedImageCache] getDiskCount]];
-        kHiddenForever(alert);
+        hidden_alert(alert);
         [weakSelf.tableView reloadData];
     });
 

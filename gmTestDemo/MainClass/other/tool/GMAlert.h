@@ -10,8 +10,8 @@
 
 @interface GMAlert : NSObject
 
+void show_alert(NSString *msg);
+void show_alert_forever(NSString *msg);
+void hidden_alert(NSString *msg);
 
-#define kShowAlert(msg)     [BaseViewController show:msg andForever:NO]
-#define kShowForever(msg)   [BaseViewController show:msg andForever:YES]
-#define kHiddenForever(msg) [BaseViewController hidden:msg]
 @end

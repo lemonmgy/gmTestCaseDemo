@@ -9,14 +9,9 @@
 #import "MainViewController.h"
 
 #import "BaseViewController.h"
-
-
 #import "CGAffineTransformViewController.h"
 #import "MYUISearchBar.h"
 #import "SearchController.h"
-
-
-#define RGB(r, g, b)   [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
 
 @interface MainViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -80,13 +75,11 @@
         [self.navigationController pushViewController:classObj animated:YES];
     }else {
         NSString *alr = [NSString stringWithFormat:@"{%@}不存在",_dataArr[indexPath.row]];
-        kShowAlert(alr);
+        show_alert(alr);
     }
      
 
 }
-
- 
 
 - (void)changeHeaderView:(CGFloat)y andView:(UIView *)view{
     if (y > 0) return;
@@ -95,19 +88,6 @@
     y = fabs(y);
     CGFloat offset = 1 + y/height*1.0;
     view.transform = CGAffineTransformMake(offset, 0, 0, (1+ 1.0*y/height), -(offset-1)/2.0, -y/2.0);
-}
-
-
-- (void)showAnimaton:(UIView *)view completion:(void(^)(void))complet
-{
-    [UIView animateWithDuration:0.1 animations:^{
-        view.transform = CGAffineTransformMakeScale(0.001, 1);
-    } completion:^(BOOL finished) {
-        complet();
-        [UIView animateWithDuration:0.1 animations:^{
-            view.transform = CGAffineTransformIdentity;
-        }];
-    }];
 }
 
 @end

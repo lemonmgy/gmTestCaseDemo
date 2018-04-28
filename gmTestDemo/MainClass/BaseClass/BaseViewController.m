@@ -9,8 +9,6 @@
 #import "BaseViewController.h"
 #import <objc/runtime.h>
 
-static NSString *alertLabel = @"alertLabel";
-
 @interface BaseViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @end
@@ -21,14 +19,9 @@ static NSString *alertLabel = @"alertLabel";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     // Do any additional setup after loading the view from its nib
     self.view.backgroundColor = [UIColor whiteColor];
-    //    self.edgesForExtendedLayout = UIRectEdgeNone;
-    
-    
     self.tableViewDataArr = [NSMutableArray arrayWithCapacity:10];
-    
     
     self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width,[UIScreen mainScreen].bounds.size.height -64) style:UITableViewStylePlain];
     self.tableView.backgroundColor = [UIColor colorWithRed:247/255.0 green:163/255.0 blue:46/255.0 alpha:1];
@@ -123,7 +116,6 @@ static NSString *alertLabel = @"alertLabel";
 - (void)bottomButtonClick:(UIButton *)sender
 {
     NSLog(@"%@ --- %ld",sender.titleLabel.text,(long)sender.tag);
-    
 }
 
 
@@ -151,67 +143,11 @@ static NSString *alertLabel = @"alertLabel";
     NSLog(@"%@ --- %ld",sender.title,(long)sender.tag);
 }
 
-+ (void)show:(NSString *)title andForever:(BOOL)forever {
-    UILabel *label = (UILabel *)objc_getAssociatedObject([UIApplication sharedApplication].keyWindow, (__bridge const void *)(alertLabel));
-    if (label) {
-        objc_setAssociatedObject([UIApplication sharedApplication].keyWindow, (__bridge const void *)(alertLabel), nil, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-        [label removeFromSuperview];
-    }
-    
-    label = [UILabel new];
-    label.backgroundColor = [UIColor colorWithRed:(arc4random()%255)/255.0 green:(arc4random()%255)/255.0 blue:(arc4random()%255)/255.0 alpha:1];
-    label.font = [UIFont systemFontOfSize:15];
-    label.layer.masksToBounds = YES;
-    label.layer.cornerRadius = 5;
-    label.text = title;
-    label.alpha = 0.5;
-    label.textAlignment = NSTextAlignmentCenter;
-    label.frame = CGRectMake(0, (kSCREEN_HEIGHT- 50)/2.0, kSCREEN_WIDTH - 50, 50);
-    [label setAdjustsFontSizeToFitWidth:YES];
-    label.center = CGPointMake(kSCREEN_WIDTH/2.0, label.center.y);
-    [[UIApplication sharedApplication].keyWindow addSubview:label];
-    
-    if (forever) {
-        objc_setAssociatedObject([UIApplication sharedApplication].keyWindow, (__bridge const void *)(alertLabel), label, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-    }
-    
-    [UIView animateWithDuration:0.3 animations:^{
-        label.alpha = 1;
-    } completion:^(BOOL finished) {
-        if (forever) return;
-        [UIView animateWithDuration:0.3 delay:0.3 options:0 animations:^{
-            label.alpha = 0;
-        } completion:^(BOOL finished) {
-            [label removeFromSuperview];
-            
-        }];
-    }];
-}
-
-+ (void)hidden:(NSString *)title {
-    if (!title.length) {
-        title = @"消失中...";
-    }
-    [[self class] show:title andForever:NO];
-}
-
-
-
-
-
-+ (void)log:(NSString *)name value:(id)value {
-    if ([value isKindOfClass:[NSNumber class]]) {
-        NSLog(@"%@ == {%@}",name,value);
-    } else {
-        
-    }
-    
-}
-
 - (NSMutableArray *)testArray{
     if (!_testArray) {
         _testArray = [NSMutableArray arrayWithCapacity:10];
     }
     return _testArray;
 }
+
 @end

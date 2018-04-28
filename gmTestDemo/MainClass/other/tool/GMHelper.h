@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface GMHelper : NSObject
-
++ (void)showAnimaton:(UIView *)view completion:(void(^)(void))complet;
 @end

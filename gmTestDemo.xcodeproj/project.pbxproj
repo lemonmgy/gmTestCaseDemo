@@ -36,6 +36,7 @@
 		355D08E31E345518001C6195 /* UIViewController+MYPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 355D08E11E345518001C6195 /* UIViewController+MYPush.m */; };
 		35790C142091DA3C00D09674 /* GMLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 35790C132091DA3C00D09674 /* GMLog.m */; };
 		35790C172091DAAC00D09674 /* GMAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 35790C162091DAAC00D09674 /* GMAlert.m */; };
+		35790C352092F8AD00D09674 /* GMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 35790C342092F8AD00D09674 /* GMHelper.m */; };
 		359C7878202AB82800D50072 /* UIButton+YX.m in Sources */ = {isa = PBXBuildFile; fileRef = 359C7876202AB82800D50072 /* UIButton+YX.m */; };
 		35AA80341E94CEFC001C8870 /* BrokenLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AA80331E94CEFC001C8870 /* BrokenLineView.m */; };
 		35ACDC641E6D06CC00DC8A11 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35ACDC631E6D06CC00DC8A11 /* Storyboard.storyboard */; };
@@ -141,6 +142,8 @@
 		35790C132091DA3C00D09674 /* GMLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMLog.m; sourceTree = "<group>"; };
 		35790C152091DAAC00D09674 /* GMAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAlert.h; sourceTree = "<group>"; };
 		35790C162091DAAC00D09674 /* GMAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAlert.m; sourceTree = "<group>"; };
+		35790C332092F8AD00D09674 /* GMHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMHelper.h; sourceTree = "<group>"; };
+		35790C342092F8AD00D09674 /* GMHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHelper.m; sourceTree = "<group>"; };
 		359C7876202AB82800D50072 /* UIButton+YX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YX.m"; sourceTree = "<group>"; };
 		359C7877202AB82800D50072 /* UIButton+YX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YX.h"; sourceTree = "<group>"; };
 		35AA80321E94CEFC001C8870 /* BrokenLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrokenLineView.h; sourceTree = "<group>"; };
@@ -418,6 +421,8 @@
 				35790C132091DA3C00D09674 /* GMLog.m */,
 				35790C152091DAAC00D09674 /* GMAlert.h */,
 				35790C162091DAAC00D09674 /* GMAlert.m */,
+				35790C332092F8AD00D09674 /* GMHelper.h */,
+				35790C342092F8AD00D09674 /* GMHelper.m */,
 			);
 			path = tool;
 			sourceTree = "<group>";
@@ -844,6 +849,7 @@
 				354C98F41FF62E4800EA4BF3 /* GMHitViewViewController.m in Sources */,
 				35F3BBD31E5D77550066773A /* GMPostTableViewCell.m in Sources */,
 				35F3BBED1E5D77550066773A /* MYUnlockViewController.m in Sources */,
+				35790C352092F8AD00D09674 /* GMHelper.m in Sources */,
 				35F3BBC21E5D77550066773A /* TransitionsAnimationBeganViewController.m in Sources */,
 				35F3BBD61E5D77550066773A /* MYRotaryView.m in Sources */,
 				3528E5E11FFB2B9F007A7FC2 /* GMGCDViewController.m in Sources */,
@@ -975,7 +981,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M2SCEZCPAN;
-				GCC_PREFIX_HEADER = "$(SRCROOT/gmTestDemo/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/gmTestDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = gmTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -992,7 +998,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M2SCEZCPAN;
-				GCC_PREFIX_HEADER = "$(SRCROOT/gmTestDemo/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/gmTestDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = gmTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
