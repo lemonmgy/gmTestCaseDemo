@@ -9,6 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MYNavigationController : UINavigationController
-@property (nonatomic, assign) BOOL startAnimation;
 
 @end

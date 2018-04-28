@@ -31,14 +31,12 @@
 		355D08A51E3451F7001C6195 /* icon3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 355D08221E3451F7001C6195 /* icon3.jpg */; };
 		355D08A61E3451F7001C6195 /* icon4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 355D08231E3451F7001C6195 /* icon4.jpg */; };
 		355D08A71E3451F7001C6195 /* moren.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 355D08241E3451F7001C6195 /* moren.jpeg */; };
-		355D08DC1E3451F7001C6195 /* MYTestEntranceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355D08961E3451F7001C6195 /* MYTestEntranceViewController.m */; };
 		355D08E21E345518001C6195 /* NSString+MYString.m in Sources */ = {isa = PBXBuildFile; fileRef = 355D08DF1E345518001C6195 /* NSString+MYString.m */; };
 		355D08E31E345518001C6195 /* UIViewController+MYPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 355D08E11E345518001C6195 /* UIViewController+MYPush.m */; };
 		35790C142091DA3C00D09674 /* GMLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 35790C132091DA3C00D09674 /* GMLog.m */; };
 		35790C172091DAAC00D09674 /* GMAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 35790C162091DAAC00D09674 /* GMAlert.m */; };
 		35790C352092F8AD00D09674 /* GMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 35790C342092F8AD00D09674 /* GMHelper.m */; };
 		359C7878202AB82800D50072 /* UIButton+YX.m in Sources */ = {isa = PBXBuildFile; fileRef = 359C7876202AB82800D50072 /* UIButton+YX.m */; };
-		35AA80341E94CEFC001C8870 /* BrokenLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AA80331E94CEFC001C8870 /* BrokenLineView.m */; };
 		35ACDC641E6D06CC00DC8A11 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35ACDC631E6D06CC00DC8A11 /* Storyboard.storyboard */; };
 		35B99ED01F3975EB00BDA78C /* MYCalendarSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B99ECF1F3975EB00BDA78C /* MYCalendarSwitchView.m */; };
 		35C3285F1FFCCF36009187D5 /* GMObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C3285E1FFCCF36009187D5 /* GMObserverViewController.m */; };
@@ -132,8 +130,6 @@
 		355D08231E3451F7001C6195 /* icon4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon4.jpg; sourceTree = "<group>"; };
 		355D08241E3451F7001C6195 /* moren.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moren.jpeg; sourceTree = "<group>"; };
 		355D08291E3451F7001C6195 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		355D08951E3451F7001C6195 /* MYTestEntranceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTestEntranceViewController.h; sourceTree = "<group>"; };
-		355D08961E3451F7001C6195 /* MYTestEntranceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTestEntranceViewController.m; sourceTree = "<group>"; };
 		355D08DE1E345518001C6195 /* NSString+MYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MYString.h"; sourceTree = "<group>"; };
 		355D08DF1E345518001C6195 /* NSString+MYString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MYString.m"; sourceTree = "<group>"; };
 		355D08E01E345518001C6195 /* UIViewController+MYPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MYPush.h"; sourceTree = "<group>"; };
@@ -146,8 +142,6 @@
 		35790C342092F8AD00D09674 /* GMHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHelper.m; sourceTree = "<group>"; };
 		359C7876202AB82800D50072 /* UIButton+YX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YX.m"; sourceTree = "<group>"; };
 		359C7877202AB82800D50072 /* UIButton+YX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YX.h"; sourceTree = "<group>"; };
-		35AA80321E94CEFC001C8870 /* BrokenLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrokenLineView.h; sourceTree = "<group>"; };
-		35AA80331E94CEFC001C8870 /* BrokenLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrokenLineView.m; sourceTree = "<group>"; };
 		35ACDC631E6D06CC00DC8A11 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		35B99ECE1F3975EB00BDA78C /* MYCalendarSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCalendarSwitchView.h; sourceTree = "<group>"; };
 		35B99ECF1F3975EB00BDA78C /* MYCalendarSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCalendarSwitchView.m; sourceTree = "<group>"; };
@@ -326,10 +320,8 @@
 		355D07ED1E34519E001C6195 /* gmTestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				355D08951E3451F7001C6195 /* MYTestEntranceViewController.h */,
-				355D08961E3451F7001C6195 /* MYTestEntranceViewController.m */,
-				35AA80321E94CEFC001C8870 /* BrokenLineView.h */,
-				35AA80331E94CEFC001C8870 /* BrokenLineView.m */,
+				355D080C1E3451F7001C6195 /* MYEntranceViewController.h */,
+				355D080D1E3451F7001C6195 /* MYEntranceViewController.m */,
 				35ACDC631E6D06CC00DC8A11 /* Storyboard.storyboard */,
 				352DD7B51E4973AF004F4598 /* TestClass.h */,
 				35F3BB591E5D77550066773A /* TestClass */,
@@ -370,8 +362,6 @@
 				355D08091E3451F7001C6195 /* BaseViewController.xib */,
 				355D080A1E3451F7001C6195 /* MainViewController.h */,
 				355D080B1E3451F7001C6195 /* MainViewController.m */,
-				355D080C1E3451F7001C6195 /* MYEntranceViewController.h */,
-				355D080D1E3451F7001C6195 /* MYEntranceViewController.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -818,7 +808,6 @@
 				35F3BBD01E5D77550066773A /* GMInteractiveTransition.m in Sources */,
 				35F3BBD81E5D77550066773A /* myview.m in Sources */,
 				354C98FD1FF639A600EA4BF3 /* GMHitBackButton.m in Sources */,
-				35AA80341E94CEFC001C8870 /* BrokenLineView.m in Sources */,
 				35C3285F1FFCCF36009187D5 /* GMObserverViewController.m in Sources */,
 				35F3BBD51E5D77550066773A /* MYCIFilterViewController.m in Sources */,
 				35F3BBC81E5D77550066773A /* GMCollectionView.m in Sources */,
@@ -833,7 +822,6 @@
 				35F3BBC71E5D77550066773A /* MYIndicatorView.m in Sources */,
 				351F8B1C1E694AB3008763B7 /* MYMediaTools.m in Sources */,
 				35F3BBC61E5D77550066773A /* NSCalendar+MYCalendarTool.m in Sources */,
-				355D08DC1E3451F7001C6195 /* MYTestEntranceViewController.m in Sources */,
 				355D07F01E34519E001C6195 /* main.m in Sources */,
 				355D08991E3451F7001C6195 /* MainViewController.m in Sources */,
 				35F3BBE01E5D77550066773A /* MYAnimatedEndViewController.m in Sources */,

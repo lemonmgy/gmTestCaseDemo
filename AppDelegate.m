@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "MYTestEntranceViewController.h"
+#import "MYEntranceViewController.h"
 #import "MYNavigationController.h"
 
 
@@ -21,7 +21,7 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    MYTestEntranceViewController *vc = [[UIStoryboard storyboardWithName:@"Storyboard" bundle:nil] instantiateViewControllerWithIdentifier:@"MYTestEntranceViewController2222"];
+    MYEntranceViewController *vc = [[UIStoryboard storyboardWithName:@"Storyboard" bundle:nil] instantiateViewControllerWithIdentifier:@"MYEntranceViewController"];
     
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
     

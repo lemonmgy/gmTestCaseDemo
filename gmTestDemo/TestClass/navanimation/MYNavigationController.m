@@ -17,16 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+
     [self.navigationBar setBackgroundImage:[self imageWithColor:[UIColor orangeColor]] forBarMetrics:UIBarMetricsDefault];
     self.interactivePopGestureRecognizer.delegate = self;
-    
-    
-}
-- (void)setStartAnimation:(BOOL)startAnimation {
-    _startAnimation = startAnimation;
-//    self.delegate = self;
-}
+} 
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
     if (self.viewControllers.count > 0) {
