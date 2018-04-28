@@ -280,7 +280,7 @@
     [[GMPhotosUtils defaultManager] getImageWithAsset:model.asset resultHandler:^(id obj, NSDictionary *info, PHAsset *asset) {
         model.bigImage = (UIImage *)obj;
         if (model.asset == asset) imageView.image = (UIImage *)obj;
-        kSizeLog(imageView.image.size, @"imageView.image");
+        log_size(imageView.image.size, @"imageView.image");
     }];
 }
 

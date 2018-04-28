@@ -33,11 +33,11 @@
     
     UIImageView *ima2 = [[UIImageView alloc]initWithFrame:CGRectMake(0, 200, 100, 100)];
     ima2.backgroundColor = [UIColor greenColor];
-    kShowForever(@"处理图片");
+    show_alert_forever(@"处理图片");
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
         UIImage *ims = [self getImage:[ima.image copy]];
        dispatch_sync(dispatch_get_main_queue(), ^{
-           kHiddenForever(@"处理完成");
+           hidden_alert(@"处理完成");
            ima2.image = ims;
            
        });

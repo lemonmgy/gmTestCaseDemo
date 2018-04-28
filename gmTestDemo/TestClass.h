@@ -11,7 +11,7 @@
 
 #define SystemControls  @[@"MYContactTableViewController",@"YXMyCollectionViewController",@"MYBezierPathViewController",@"MYUISearchBar",@"SearchController",@"",@"",@"",@"",@"",@"",@"",@"",@"",@"",@"",@""]
 
-#define CustomControls  @[@"TransitionsAnimationBeganViewController",@"MYCalendarViewController",@"MYIndicatorViewController",@"MYPhotosViewController",@"GMPhotosViewController",@"GMPostViewController",@"MYRotaryViewController",@"MYCIFilterViewController",@"MYShufflingViewController",@"MYCameraViewController",@"MYWebViewViewController",@"MYDownLoadViewController",@"",@"",@"",@"",@""]
+#define CustomControls  @[@"TransitionsAnimationBeganViewController",@"MYCalendarViewController",@"MYIndicatorViewController",@"MYPhotosViewController",@"GMPhotosViewController",@"GMPostViewController",@"MYRotaryViewController",@"MYCIFilterViewController",@[@"MYShufflingViewController",@"轮播图"],@"MYCameraViewController",@"MYWebViewViewController",@"MYDownLoadViewController",@"",@"",@"",@"",@""]
 
 #define UIEffect  @[@"MYtestDocumentsViewController",@"MYUnlockViewController",@"GMHitViewViewController",@"GMGCDViewController",@"GMTimerViewController",@"",@"",@"",@"",@"",@"",@"",@"",@"",@"",@"",@""]
 

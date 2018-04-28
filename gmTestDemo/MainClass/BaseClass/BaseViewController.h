@@ -20,8 +20,7 @@
 
 - (void)bottomButtonClick:(UIButton *)sender;
 - (void)topButtonClick:(UIBarButtonItem *)sender;
-+ (void)show:(NSString *)title andForever:(BOOL)forever;
-+ (void)hidden:(NSString *)title;
 
 @property (nonatomic, strong) NSMutableArray *testArray;
+
 @end

@@ -43,7 +43,7 @@
             strongSelf.callBackImageView.image = [UIImage imageNamed:url];
         }
         [strongSelf.navigationController pushViewController:[[strongSelf class] new] animated:YES];
-        kShowAlert(@"点击了广告位");
+        show_alert(@"点击了广告位");
     }];
     [self.view addSubview:self.callBackImageView];
 

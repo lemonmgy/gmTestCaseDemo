@@ -59,12 +59,12 @@
 - (void)getData {
 
     self.calendar = [NSCalendar currentCalendar];
-    kNameLog(@"开始", nil);
+    log_objcx(@"开始");
     self.monthArray = [self.calendar calendarMonthArrayDataWithNumber:-(12*100) andBaseDate:nil];
     NSMutableArray *lastMonthArray = [self.calendar calendarMonthArrayDataWithNumber:(12*100) andBaseDate:nil];
     [self.monthArray removeLastObject];
     [self.monthArray addObjectsFromArray:lastMonthArray];
-    kNameLog(@"结束", nil);
+    log_objcx(@"开始");
     [self.collectionView reloadData];
     self.switchView.dataSourceArray = self.monthArray;
 }

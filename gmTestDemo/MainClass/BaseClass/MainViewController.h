@@ -9,6 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MainViewController : UIViewController
-@property (nonatomic, strong) NSArray *dataArr;
-
++ (void)gotoTabBarController;
 @end

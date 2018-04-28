@@ -69,7 +69,7 @@ UICollectionViewDelegateFlowLayout> {
     if ([self respondsToSelector:sel]) {
         [self performSelectorOnMainThread:sel withObject:nil waitUntilDone:YES];
     }else {
-        kShowAlert(@"没有实现这个方法");
+        show_alert(@"没有实现这个方法");
     }
 }
 
@@ -91,7 +91,7 @@ UICollectionViewDelegateFlowLayout> {
 }
 
 - (void)dispatch_semaphore {
-    kShowAlert(@"dispatch_queue");
+    show_alert(@"dispatch_queue");
     
     dispatch_queue_t queue_t =  dispatch_queue_create("com.lemonmgy.queue", DISPATCH_QUEUE_CONCURRENT);
     
