@@ -110,7 +110,7 @@
 		354C98FB1FF639A600EA4BF3 /* GMHitBackButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMHitBackButton.h; sourceTree = "<group>"; };
 		354C98FC1FF639A600EA4BF3 /* GMHitBackButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHitBackButton.m; sourceTree = "<group>"; };
 		355A6E821E6D11A40030C206 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		355D07EB1E34519E001C6195 /* gmTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gmTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		355D07EB1E34519E001C6195 /* gmTestCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gmTestCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		355D07EF1E34519E001C6195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		355D07F11E34519E001C6195 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
 		355D07F21E34519E001C6195 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
@@ -312,7 +312,7 @@
 		355D07EC1E34519E001C6195 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				355D07EB1E34519E001C6195 /* gmTestDemo.app */,
+				355D07EB1E34519E001C6195 /* gmTestCase.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -686,9 +686,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		355D07EA1E34519E001C6195 /* gmTestDemo */ = {
+		355D07EA1E34519E001C6195 /* gmTestCase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 355D08021E34519E001C6195 /* Build configuration list for PBXNativeTarget "gmTestDemo" */;
+			buildConfigurationList = 355D08021E34519E001C6195 /* Build configuration list for PBXNativeTarget "gmTestCase" */;
 			buildPhases = (
 				B6E78C8971BC3AA1F2C4AB75 /* [CP] Check Pods Manifest.lock */,
 				355D07E71E34519E001C6195 /* Sources */,
@@ -699,9 +699,9 @@
 			);
 			dependencies = (
 			);
-			name = gmTestDemo;
+			name = gmTestCase;
 			productName = gmTestDemo;
-			productReference = 355D07EB1E34519E001C6195 /* gmTestDemo.app */;
+			productReference = 355D07EB1E34519E001C6195 /* gmTestCase.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -721,7 +721,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 355D07E61E34519E001C6195 /* Build configuration list for PBXProject "gmTestDemo" */;
+			buildConfigurationList = 355D07E61E34519E001C6195 /* Build configuration list for PBXProject "gmTestCase" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -734,7 +734,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				355D07EA1E34519E001C6195 /* gmTestDemo */,
+				355D07EA1E34519E001C6195 /* gmTestCase */,
 			);
 		};
 /* End PBXProject section */
@@ -1000,7 +1000,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		355D07E61E34519E001C6195 /* Build configuration list for PBXProject "gmTestDemo" */ = {
+		355D07E61E34519E001C6195 /* Build configuration list for PBXProject "gmTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				355D08001E34519E001C6195 /* Debug */,
@@ -1009,7 +1009,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		355D08021E34519E001C6195 /* Build configuration list for PBXNativeTarget "gmTestDemo" */ = {
+		355D08021E34519E001C6195 /* Build configuration list for PBXNativeTarget "gmTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				355D08031E34519E001C6195 /* Debug */,
