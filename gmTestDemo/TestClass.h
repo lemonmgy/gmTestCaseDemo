@@ -9,13 +9,10 @@
 #ifndef TestClass_h
 #define TestClass_h
 
-#define SystemControls  @[@"MYContactTableViewController",@"YXMyCollectionViewController",@"MYBezierPathViewController",@"MYUISearchBar",@"SearchController",@"",@"",@"",@"",@"",@"",@"",@"",@"",@"",@"",@""]
+#define SystemControls 
+#define UIEffect
 
-#define CustomControls  @[@"TransitionsAnimationBeganViewController",@"MYCalendarViewController",@"MYIndicatorViewController",@"MYPhotosViewController",@"GMPhotosViewController",@"GMPostViewController",@"MYRotaryViewController",@"MYCIFilterViewController",@[@"MYShufflingViewController",@"轮播图"],@"MYCameraViewController",@"MYWebViewViewController",@"MYDownLoadViewController",@"",@"",@"",@"",@""]
-
-#define UIEffect  @[@"MYtestDocumentsViewController",@"MYUnlockViewController",@"GMHitViewViewController",@"GMGCDViewController",@"GMTimerViewController",@"",@"",@"",@"",@"",@"",@"",@"",@"",@"",@"",@""]
-
-#define navanimation @[@"MYHiddenNavViewController",@"MYGradientViewController",@"MYAnimatedStartViewController",@"",@"",@"",@""]
+#define navanimation @[]
 
 
 //PrefixHeader.pch

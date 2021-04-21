@@ -19,10 +19,10 @@
 #import "UIViewController+MYPush.h"
 
 #import "UIImageView+WebCache.h"
-#import "BaseViewController.h"
-#import "MainViewController.h"
-#import "MYNavigationController.h"
+#import <SDImageCache.h>
 
+#import "BaseViewController.h"
+ 
 #import "GMLog.h"
 #import "GMAlert.h"
 

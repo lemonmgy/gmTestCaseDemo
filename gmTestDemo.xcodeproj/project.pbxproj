@@ -10,9 +10,6 @@
 		351F8B181E6926E3008763B7 /* MYCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 351F8B161E6926E3008763B7 /* MYCameraViewController.m */; };
 		351F8B191E6926E3008763B7 /* MYCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 351F8B171E6926E3008763B7 /* MYCameraViewController.xib */; };
 		351F8B1C1E694AB3008763B7 /* MYMediaTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 351F8B1B1E694AB3008763B7 /* MYMediaTools.m */; };
-		3528E5E11FFB2B9F007A7FC2 /* GMGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3528E5E01FFB2B9F007A7FC2 /* GMGCDViewController.m */; };
-		3528E5E41FFB2DD0007A7FC2 /* UIViewController+GMExchangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 3528E5E31FFB2DD0007A7FC2 /* UIViewController+GMExchangeMethod.m */; };
-		3528E5E91FFB9C2E007A7FC2 /* GMTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3528E5E81FFB9C2E007A7FC2 /* GMTimerViewController.m */; };
 		354C98F41FF62E4800EA4BF3 /* GMHitViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C98F31FF62E4800EA4BF3 /* GMHitViewViewController.m */; };
 		354C98F71FF62F1A00EA4BF3 /* GMHitBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C98F61FF62F1A00EA4BF3 /* GMHitBackView.m */; };
 		354C98FA1FF62F2900EA4BF3 /* GMHitCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C98F91FF62F2900EA4BF3 /* GMHitCenterView.m */; };
@@ -23,8 +20,7 @@
 		355D07FB1E34519E001C6195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355D07FA1E34519E001C6195 /* Assets.xcassets */; };
 		355D08971E3451F7001C6195 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355D08081E3451F7001C6195 /* BaseViewController.m */; };
 		355D08981E3451F7001C6195 /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 355D08091E3451F7001C6195 /* BaseViewController.xib */; };
-		355D08991E3451F7001C6195 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355D080B1E3451F7001C6195 /* MainViewController.m */; };
-		355D089A1E3451F7001C6195 /* MYEntranceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355D080D1E3451F7001C6195 /* MYEntranceViewController.m */; };
+		355D08991E3451F7001C6195 /* GMCaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355D080B1E3451F7001C6195 /* GMCaseListViewController.m */; };
 		355D08A21E3451F7001C6195 /* iconss0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 355D081F1E3451F7001C6195 /* iconss0.jpg */; };
 		355D08A31E3451F7001C6195 /* icon1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 355D08201E3451F7001C6195 /* icon1.jpg */; };
 		355D08A41E3451F7001C6195 /* icon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 355D08211E3451F7001C6195 /* icon2.jpg */; };
@@ -37,32 +33,19 @@
 		35790C172091DAAC00D09674 /* GMAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 35790C162091DAAC00D09674 /* GMAlert.m */; };
 		35790C352092F8AD00D09674 /* GMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 35790C342092F8AD00D09674 /* GMHelper.m */; };
 		359C7878202AB82800D50072 /* UIButton+YX.m in Sources */ = {isa = PBXBuildFile; fileRef = 359C7876202AB82800D50072 /* UIButton+YX.m */; };
-		35ACDC641E6D06CC00DC8A11 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35ACDC631E6D06CC00DC8A11 /* Storyboard.storyboard */; };
 		35B99ED01F3975EB00BDA78C /* MYCalendarSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B99ECF1F3975EB00BDA78C /* MYCalendarSwitchView.m */; };
-		35C3285F1FFCCF36009187D5 /* GMObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C3285E1FFCCF36009187D5 /* GMObserverViewController.m */; };
-		35DEEFB41F14863D00F1B62E /* MYWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DEEFB31F14863D00F1B62E /* MYWebViewViewController.m */; };
-		35DEEFB71F14AB8C00F1B62E /* MYDownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DEEFB61F14AB8C00F1B62E /* MYDownLoadViewController.m */; };
 		35F3BBC21E5D77550066773A /* TransitionsAnimationBeganViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB5D1E5D77550066773A /* TransitionsAnimationBeganViewController.m */; };
 		35F3BBC51E5D77550066773A /* MYCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB641E5D77550066773A /* MYCalendarViewController.m */; };
 		35F3BBC61E5D77550066773A /* NSCalendar+MYCalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB661E5D77550066773A /* NSCalendar+MYCalendarTool.m */; };
-		35F3BBC71E5D77550066773A /* MYIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB691E5D77550066773A /* MYIndicatorView.m */; };
-		35F3BBC81E5D77550066773A /* GMCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB6C1E5D77550066773A /* GMCollectionView.m */; };
 		35F3BBC91E5D77550066773A /* GMPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB6E1E5D77550066773A /* GMPhotosCollectionViewCell.m */; };
 		35F3BBCA1E5D77550066773A /* GMPhotosUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB701E5D77550066773A /* GMPhotosUtils.m */; };
 		35F3BBCB1E5D77550066773A /* GMPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB721E5D77550066773A /* GMPhotosViewController.m */; };
-		35F3BBCC1E5D77550066773A /* GMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB741E5D77550066773A /* GMProgressView.m */; };
-		35F3BBCD1E5D77550066773A /* MYPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB761E5D77550066773A /* MYPhotosViewController.m */; };
 		35F3BBCE1E5D77550066773A /* GMIconItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB791E5D77550066773A /* GMIconItem.m */; };
 		35F3BBCF1E5D77550066773A /* GMImageAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB7B1E5D77550066773A /* GMImageAnimatedTransitioning.m */; };
-		35F3BBD01E5D77550066773A /* GMInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB7D1E5D77550066773A /* GMInteractiveTransition.m */; };
 		35F3BBD11E5D77550066773A /* GMPictureBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB7F1E5D77550066773A /* GMPictureBrowserViewController.m */; };
 		35F3BBD21E5D77550066773A /* GMPictureSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB811E5D77550066773A /* GMPictureSwitchView.m */; };
 		35F3BBD31E5D77550066773A /* GMPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB831E5D77550066773A /* GMPostTableViewCell.m */; };
 		35F3BBD41E5D77550066773A /* GMPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB851E5D77550066773A /* GMPostViewController.m */; };
-		35F3BBD51E5D77550066773A /* MYCIFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB881E5D77550066773A /* MYCIFilterViewController.m */; };
-		35F3BBD61E5D77550066773A /* MYRotaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB8A1E5D77550066773A /* MYRotaryView.m */; };
-		35F3BBD71E5D77550066773A /* MYRotaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB8C1E5D77550066773A /* MYRotaryViewController.m */; };
-		35F3BBD81E5D77550066773A /* myview.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB8E1E5D77550066773A /* myview.m */; };
 		35F3BBD91E5D77550066773A /* GMShufflingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB911E5D77550066773A /* GMShufflingView.m */; };
 		35F3BBDA1E5D77550066773A /* MYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB931E5D77550066773A /* MYButton.m */; };
 		35F3BBDB1E5D77550066773A /* MYShufflingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BB951E5D77550066773A /* MYShufflingViewController.m */; };
@@ -73,18 +56,9 @@
 		35F3BBE01E5D77550066773A /* MYAnimatedEndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBA11E5D77550066773A /* MYAnimatedEndViewController.m */; };
 		35F3BBE11E5D77550066773A /* MYAnimatedStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBA31E5D77550066773A /* MYAnimatedStartViewController.m */; };
 		35F3BBE21E5D77550066773A /* MYAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBA51E5D77550066773A /* MYAnimatedTransitioning.m */; };
-		35F3BBE31E5D77550066773A /* MYGradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBA71E5D77550066773A /* MYGradientViewController.m */; };
-		35F3BBE41E5D77550066773A /* MYHiddenNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBA91E5D77550066773A /* MYHiddenNavViewController.m */; };
-		35F3BBE51E5D77550066773A /* MYLasetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBAB1E5D77550066773A /* MYLasetViewController.m */; };
-		35F3BBE61E5D77550066773A /* MYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBAD1E5D77550066773A /* MYNavigationController.m */; };
-		35F3BBE71E5D77550066773A /* MYContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBB11E5D77550066773A /* MYContactTableViewController.m */; };
-		35F3BBE81E5D77550066773A /* YXMyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBB41E5D77550066773A /* YXMyCollectionViewController.m */; };
+		35F3BBE81E5D77550066773A /* GMShowSegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBB41E5D77550066773A /* GMShowSegmentedViewController.m */; };
 		35F3BBE91E5D77550066773A /* MYBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBB71E5D77550066773A /* MYBezierPathViewController.m */; };
-		35F3BBEA1E5D77550066773A /* MYUISearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBBA1E5D77550066773A /* MYUISearchBar.m */; };
-		35F3BBEB1E5D77550066773A /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBBC1E5D77550066773A /* SearchController.m */; };
-		35F3BBEC1E5D77550066773A /* MYtestDocumentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBBF1E5D77550066773A /* MYtestDocumentsViewController.m */; };
 		35F3BBED1E5D77550066773A /* MYUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBC11E5D77550066773A /* MYUnlockViewController.m */; };
-		35F3BBF01E5D78D40066773A /* MYIndicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3BBEF1E5D78D40066773A /* MYIndicatorViewController.m */; };
 		37A9D2EF5C0130C83991859E /* libPods-gmTestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E13AA2A99782BE75BDDFB6F /* libPods-gmTestDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -94,12 +68,6 @@
 		351F8B171E6926E3008763B7 /* MYCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYCameraViewController.xib; sourceTree = "<group>"; };
 		351F8B1A1E694AB3008763B7 /* MYMediaTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYMediaTools.h; sourceTree = "<group>"; };
 		351F8B1B1E694AB3008763B7 /* MYMediaTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYMediaTools.m; sourceTree = "<group>"; };
-		3528E5DF1FFB2B9F007A7FC2 /* GMGCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMGCDViewController.h; sourceTree = "<group>"; };
-		3528E5E01FFB2B9F007A7FC2 /* GMGCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMGCDViewController.m; sourceTree = "<group>"; };
-		3528E5E21FFB2DD0007A7FC2 /* UIViewController+GMExchangeMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GMExchangeMethod.h"; sourceTree = "<group>"; };
-		3528E5E31FFB2DD0007A7FC2 /* UIViewController+GMExchangeMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GMExchangeMethod.m"; sourceTree = "<group>"; };
-		3528E5E71FFB9C2E007A7FC2 /* GMTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMTimerViewController.h; sourceTree = "<group>"; };
-		3528E5E81FFB9C2E007A7FC2 /* GMTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMTimerViewController.m; sourceTree = "<group>"; };
 		352DD7B51E4973AF004F4598 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		354C98F21FF62E4800EA4BF3 /* GMHitViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMHitViewViewController.h; sourceTree = "<group>"; };
 		354C98F31FF62E4800EA4BF3 /* GMHitViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHitViewViewController.m; sourceTree = "<group>"; };
@@ -119,10 +87,8 @@
 		355D08071E3451F7001C6195 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		355D08081E3451F7001C6195 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		355D08091E3451F7001C6195 /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
-		355D080A1E3451F7001C6195 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		355D080B1E3451F7001C6195 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		355D080C1E3451F7001C6195 /* MYEntranceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYEntranceViewController.h; sourceTree = "<group>"; };
-		355D080D1E3451F7001C6195 /* MYEntranceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYEntranceViewController.m; sourceTree = "<group>"; };
+		355D080A1E3451F7001C6195 /* GMCaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMCaseListViewController.h; sourceTree = "<group>"; };
+		355D080B1E3451F7001C6195 /* GMCaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMCaseListViewController.m; sourceTree = "<group>"; };
 		355D081F1E3451F7001C6195 /* iconss0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iconss0.jpg; sourceTree = "<group>"; };
 		355D08201E3451F7001C6195 /* icon1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon1.jpg; sourceTree = "<group>"; };
 		355D08211E3451F7001C6195 /* icon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon2.jpg; sourceTree = "<group>"; };
@@ -142,41 +108,24 @@
 		35790C342092F8AD00D09674 /* GMHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHelper.m; sourceTree = "<group>"; };
 		359C7876202AB82800D50072 /* UIButton+YX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YX.m"; sourceTree = "<group>"; };
 		359C7877202AB82800D50072 /* UIButton+YX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YX.h"; sourceTree = "<group>"; };
-		35ACDC631E6D06CC00DC8A11 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		35B99ECE1F3975EB00BDA78C /* MYCalendarSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCalendarSwitchView.h; sourceTree = "<group>"; };
 		35B99ECF1F3975EB00BDA78C /* MYCalendarSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCalendarSwitchView.m; sourceTree = "<group>"; };
-		35C3285D1FFCCF36009187D5 /* GMObserverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMObserverViewController.h; sourceTree = "<group>"; };
-		35C3285E1FFCCF36009187D5 /* GMObserverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMObserverViewController.m; sourceTree = "<group>"; };
-		35DEEFB21F14863D00F1B62E /* MYWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYWebViewViewController.h; sourceTree = "<group>"; };
-		35DEEFB31F14863D00F1B62E /* MYWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYWebViewViewController.m; sourceTree = "<group>"; };
-		35DEEFB51F14AB8C00F1B62E /* MYDownLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYDownLoadViewController.h; sourceTree = "<group>"; };
-		35DEEFB61F14AB8C00F1B62E /* MYDownLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYDownLoadViewController.m; sourceTree = "<group>"; };
 		35F3BB5C1E5D77550066773A /* TransitionsAnimationBeganViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionsAnimationBeganViewController.h; sourceTree = "<group>"; };
 		35F3BB5D1E5D77550066773A /* TransitionsAnimationBeganViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionsAnimationBeganViewController.m; sourceTree = "<group>"; };
 		35F3BB631E5D77550066773A /* MYCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCalendarViewController.h; sourceTree = "<group>"; };
 		35F3BB641E5D77550066773A /* MYCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCalendarViewController.m; sourceTree = "<group>"; };
 		35F3BB651E5D77550066773A /* NSCalendar+MYCalendarTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+MYCalendarTool.h"; sourceTree = "<group>"; };
 		35F3BB661E5D77550066773A /* NSCalendar+MYCalendarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+MYCalendarTool.m"; sourceTree = "<group>"; };
-		35F3BB681E5D77550066773A /* MYIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYIndicatorView.h; sourceTree = "<group>"; };
-		35F3BB691E5D77550066773A /* MYIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYIndicatorView.m; sourceTree = "<group>"; };
-		35F3BB6B1E5D77550066773A /* GMCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMCollectionView.h; sourceTree = "<group>"; };
-		35F3BB6C1E5D77550066773A /* GMCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMCollectionView.m; sourceTree = "<group>"; };
 		35F3BB6D1E5D77550066773A /* GMPhotosCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMPhotosCollectionViewCell.h; sourceTree = "<group>"; };
 		35F3BB6E1E5D77550066773A /* GMPhotosCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMPhotosCollectionViewCell.m; sourceTree = "<group>"; };
 		35F3BB6F1E5D77550066773A /* GMPhotosUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMPhotosUtils.h; sourceTree = "<group>"; };
 		35F3BB701E5D77550066773A /* GMPhotosUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMPhotosUtils.m; sourceTree = "<group>"; };
 		35F3BB711E5D77550066773A /* GMPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMPhotosViewController.h; sourceTree = "<group>"; };
 		35F3BB721E5D77550066773A /* GMPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMPhotosViewController.m; sourceTree = "<group>"; };
-		35F3BB731E5D77550066773A /* GMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMProgressView.h; sourceTree = "<group>"; };
-		35F3BB741E5D77550066773A /* GMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMProgressView.m; sourceTree = "<group>"; };
-		35F3BB751E5D77550066773A /* MYPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPhotosViewController.h; sourceTree = "<group>"; };
-		35F3BB761E5D77550066773A /* MYPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPhotosViewController.m; sourceTree = "<group>"; };
 		35F3BB781E5D77550066773A /* GMIconItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMIconItem.h; sourceTree = "<group>"; };
 		35F3BB791E5D77550066773A /* GMIconItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMIconItem.m; sourceTree = "<group>"; };
 		35F3BB7A1E5D77550066773A /* GMImageAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMImageAnimatedTransitioning.h; sourceTree = "<group>"; };
 		35F3BB7B1E5D77550066773A /* GMImageAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMImageAnimatedTransitioning.m; sourceTree = "<group>"; };
-		35F3BB7C1E5D77550066773A /* GMInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMInteractiveTransition.h; sourceTree = "<group>"; };
-		35F3BB7D1E5D77550066773A /* GMInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMInteractiveTransition.m; sourceTree = "<group>"; };
 		35F3BB7E1E5D77550066773A /* GMPictureBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMPictureBrowserViewController.h; sourceTree = "<group>"; };
 		35F3BB7F1E5D77550066773A /* GMPictureBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMPictureBrowserViewController.m; sourceTree = "<group>"; };
 		35F3BB801E5D77550066773A /* GMPictureSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMPictureSwitchView.h; sourceTree = "<group>"; };
@@ -185,14 +134,6 @@
 		35F3BB831E5D77550066773A /* GMPostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMPostTableViewCell.m; sourceTree = "<group>"; };
 		35F3BB841E5D77550066773A /* GMPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMPostViewController.h; sourceTree = "<group>"; };
 		35F3BB851E5D77550066773A /* GMPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMPostViewController.m; sourceTree = "<group>"; };
-		35F3BB871E5D77550066773A /* MYCIFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCIFilterViewController.h; sourceTree = "<group>"; };
-		35F3BB881E5D77550066773A /* MYCIFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCIFilterViewController.m; sourceTree = "<group>"; };
-		35F3BB891E5D77550066773A /* MYRotaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYRotaryView.h; sourceTree = "<group>"; };
-		35F3BB8A1E5D77550066773A /* MYRotaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYRotaryView.m; sourceTree = "<group>"; };
-		35F3BB8B1E5D77550066773A /* MYRotaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYRotaryViewController.h; sourceTree = "<group>"; };
-		35F3BB8C1E5D77550066773A /* MYRotaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYRotaryViewController.m; sourceTree = "<group>"; };
-		35F3BB8D1E5D77550066773A /* myview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myview.h; sourceTree = "<group>"; };
-		35F3BB8E1E5D77550066773A /* myview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myview.m; sourceTree = "<group>"; };
 		35F3BB901E5D77550066773A /* GMShufflingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMShufflingView.h; sourceTree = "<group>"; };
 		35F3BB911E5D77550066773A /* GMShufflingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMShufflingView.m; sourceTree = "<group>"; };
 		35F3BB921E5D77550066773A /* MYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYButton.h; sourceTree = "<group>"; };
@@ -213,30 +154,12 @@
 		35F3BBA31E5D77550066773A /* MYAnimatedStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAnimatedStartViewController.m; sourceTree = "<group>"; };
 		35F3BBA41E5D77550066773A /* MYAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAnimatedTransitioning.h; sourceTree = "<group>"; };
 		35F3BBA51E5D77550066773A /* MYAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAnimatedTransitioning.m; sourceTree = "<group>"; };
-		35F3BBA61E5D77550066773A /* MYGradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYGradientViewController.h; sourceTree = "<group>"; };
-		35F3BBA71E5D77550066773A /* MYGradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYGradientViewController.m; sourceTree = "<group>"; };
-		35F3BBA81E5D77550066773A /* MYHiddenNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYHiddenNavViewController.h; sourceTree = "<group>"; };
-		35F3BBA91E5D77550066773A /* MYHiddenNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYHiddenNavViewController.m; sourceTree = "<group>"; };
-		35F3BBAA1E5D77550066773A /* MYLasetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYLasetViewController.h; sourceTree = "<group>"; };
-		35F3BBAB1E5D77550066773A /* MYLasetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYLasetViewController.m; sourceTree = "<group>"; };
-		35F3BBAC1E5D77550066773A /* MYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNavigationController.h; sourceTree = "<group>"; };
-		35F3BBAD1E5D77550066773A /* MYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNavigationController.m; sourceTree = "<group>"; };
-		35F3BBB01E5D77550066773A /* MYContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYContactTableViewController.h; sourceTree = "<group>"; };
-		35F3BBB11E5D77550066773A /* MYContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYContactTableViewController.m; sourceTree = "<group>"; };
-		35F3BBB31E5D77550066773A /* YXMyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXMyCollectionViewController.h; sourceTree = "<group>"; };
-		35F3BBB41E5D77550066773A /* YXMyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXMyCollectionViewController.m; sourceTree = "<group>"; };
+		35F3BBB31E5D77550066773A /* GMShowSegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMShowSegmentedViewController.h; sourceTree = "<group>"; };
+		35F3BBB41E5D77550066773A /* GMShowSegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMShowSegmentedViewController.m; sourceTree = "<group>"; };
 		35F3BBB61E5D77550066773A /* MYBezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYBezierPathViewController.h; sourceTree = "<group>"; };
 		35F3BBB71E5D77550066773A /* MYBezierPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYBezierPathViewController.m; sourceTree = "<group>"; };
-		35F3BBB91E5D77550066773A /* MYUISearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUISearchBar.h; sourceTree = "<group>"; };
-		35F3BBBA1E5D77550066773A /* MYUISearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYUISearchBar.m; sourceTree = "<group>"; };
-		35F3BBBB1E5D77550066773A /* SearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchController.h; sourceTree = "<group>"; };
-		35F3BBBC1E5D77550066773A /* SearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
-		35F3BBBE1E5D77550066773A /* MYtestDocumentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYtestDocumentsViewController.h; sourceTree = "<group>"; };
-		35F3BBBF1E5D77550066773A /* MYtestDocumentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYtestDocumentsViewController.m; sourceTree = "<group>"; };
 		35F3BBC01E5D77550066773A /* MYUnlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUnlockViewController.h; sourceTree = "<group>"; };
 		35F3BBC11E5D77550066773A /* MYUnlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYUnlockViewController.m; sourceTree = "<group>"; };
-		35F3BBEE1E5D78D40066773A /* MYIndicatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYIndicatorViewController.h; sourceTree = "<group>"; };
-		35F3BBEF1E5D78D40066773A /* MYIndicatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYIndicatorViewController.m; sourceTree = "<group>"; };
 		4E13AA2A99782BE75BDDFB6F /* libPods-gmTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gmTestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B774807E16996AF9D2C3B5BA /* Pods-gmTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gmTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gmTestDemo/Pods-gmTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BAD8C7122B655B977E38D53C /* Pods-gmTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gmTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-gmTestDemo/Pods-gmTestDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -254,7 +177,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		351F8B141E6926E3008763B7 /* Camera */ = {
+		351BCB3E23D59810000CAF6C /* MYUnlockViewController */ = {
+			isa = PBXGroup;
+			children = (
+				35F3BBC01E5D77550066773A /* MYUnlockViewController.h */,
+				35F3BBC11E5D77550066773A /* MYUnlockViewController.m */,
+			);
+			path = MYUnlockViewController;
+			sourceTree = "<group>";
+		};
+		351F8B141E6926E3008763B7 /* MYCameraViewController */ = {
 			isa = PBXGroup;
 			children = (
 				351F8B151E6926E3008763B7 /* MYCameraViewController.h */,
@@ -263,28 +195,10 @@
 				351F8B1A1E694AB3008763B7 /* MYMediaTools.h */,
 				351F8B1B1E694AB3008763B7 /* MYMediaTools.m */,
 			);
-			path = Camera;
+			path = MYCameraViewController;
 			sourceTree = "<group>";
 		};
-		3528E5DE1FFB2B8C007A7FC2 /* gcd */ = {
-			isa = PBXGroup;
-			children = (
-				3528E5DF1FFB2B9F007A7FC2 /* GMGCDViewController.h */,
-				3528E5E01FFB2B9F007A7FC2 /* GMGCDViewController.m */,
-			);
-			path = gcd;
-			sourceTree = "<group>";
-		};
-		3528E5E61FFB9C21007A7FC2 /* timer */ = {
-			isa = PBXGroup;
-			children = (
-				3528E5E71FFB9C2E007A7FC2 /* GMTimerViewController.h */,
-				3528E5E81FFB9C2E007A7FC2 /* GMTimerViewController.m */,
-			);
-			path = timer;
-			sourceTree = "<group>";
-		};
-		354C98F11FF62E1B00EA4BF3 /*  hitTestView */ = {
+		354C98F11FF62E1B00EA4BF3 /* GMHitViewViewController */ = {
 			isa = PBXGroup;
 			children = (
 				354C98F21FF62E4800EA4BF3 /* GMHitViewViewController.h */,
@@ -296,7 +210,7 @@
 				354C98FB1FF639A600EA4BF3 /* GMHitBackButton.h */,
 				354C98FC1FF639A600EA4BF3 /* GMHitBackButton.m */,
 			);
-			path = " hitTestView";
+			path = GMHitViewViewController;
 			sourceTree = "<group>";
 		};
 		355D07E21E34519E001C6195 = {
@@ -320,18 +234,16 @@
 		355D07ED1E34519E001C6195 /* gmTestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				355D080C1E3451F7001C6195 /* MYEntranceViewController.h */,
-				355D080D1E3451F7001C6195 /* MYEntranceViewController.m */,
-				35ACDC631E6D06CC00DC8A11 /* Storyboard.storyboard */,
 				352DD7B51E4973AF004F4598 /* TestClass.h */,
+				355D081D1E3451F7001C6195 /* helper */,
 				35F3BB591E5D77550066773A /* TestClass */,
 				355D08051E3451F7001C6195 /* MainClass */,
-				355D07EE1E34519E001C6195 /* MYTestEntranceViewController */,
+				355D07EE1E34519E001C6195 /* other */,
 			);
 			path = gmTestDemo;
 			sourceTree = "<group>";
 		};
-		355D07EE1E34519E001C6195 /* MYTestEntranceViewController */ = {
+		355D07EE1E34519E001C6195 /* other */ = {
 			isa = PBXGroup;
 			children = (
 				355D07F11E34519E001C6195 /* AppDelegate.h */,
@@ -342,38 +254,29 @@
 				355D07EF1E34519E001C6195 /* main.m */,
 				355D08291E3451F7001C6195 /* PrefixHeader.pch */,
 			);
-			name = MYTestEntranceViewController;
+			name = other;
 			sourceTree = "<group>";
 		};
 		355D08051E3451F7001C6195 /* MainClass */ = {
 			isa = PBXGroup;
 			children = (
-				355D08061E3451F7001C6195 /* BaseClass */,
-				355D081D1E3451F7001C6195 /* other */,
+				355D08071E3451F7001C6195 /* BaseViewController.h */,
+				355D08081E3451F7001C6195 /* BaseViewController.m */,
+				355D08091E3451F7001C6195 /* BaseViewController.xib */,
+				355D080A1E3451F7001C6195 /* GMCaseListViewController.h */,
+				355D080B1E3451F7001C6195 /* GMCaseListViewController.m */,
 			);
 			path = MainClass;
 			sourceTree = "<group>";
 		};
-		355D08061E3451F7001C6195 /* BaseClass */ = {
-			isa = PBXGroup;
-			children = (
-				355D08071E3451F7001C6195 /* BaseViewController.h */,
-				355D08081E3451F7001C6195 /* BaseViewController.m */,
-				355D08091E3451F7001C6195 /* BaseViewController.xib */,
-				355D080A1E3451F7001C6195 /* MainViewController.h */,
-				355D080B1E3451F7001C6195 /* MainViewController.m */,
-			);
-			path = BaseClass;
-			sourceTree = "<group>";
-		};
-		355D081D1E3451F7001C6195 /* other */ = {
+		355D081D1E3451F7001C6195 /* helper */ = {
 			isa = PBXGroup;
 			children = (
 				35790C112091D9BE00D09674 /* tool */,
 				355D08DD1E3453A0001C6195 /* category */,
 				355D081E1E3451F7001C6195 /* icon */,
 			);
-			path = other;
+			path = helper;
 			sourceTree = "<group>";
 		};
 		355D081E1E3451F7001C6195 /* icon */ = {
@@ -398,8 +301,6 @@
 				355D08DF1E345518001C6195 /* NSString+MYString.m */,
 				355D08E01E345518001C6195 /* UIViewController+MYPush.h */,
 				355D08E11E345518001C6195 /* UIViewController+MYPush.m */,
-				3528E5E21FFB2DD0007A7FC2 /* UIViewController+GMExchangeMethod.h */,
-				3528E5E31FFB2DD0007A7FC2 /* UIViewController+GMExchangeMethod.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -417,64 +318,35 @@
 			path = tool;
 			sourceTree = "<group>";
 		};
-		35C3285C1FFCCF2C009187D5 /* Observer */ = {
-			isa = PBXGroup;
-			children = (
-				35C3285D1FFCCF36009187D5 /* GMObserverViewController.h */,
-				35C3285E1FFCCF36009187D5 /* GMObserverViewController.m */,
-			);
-			path = Observer;
-			sourceTree = "<group>";
-		};
-		35DEEFB11F14862800F1B62E /* webView */ = {
-			isa = PBXGroup;
-			children = (
-				35DEEFB21F14863D00F1B62E /* MYWebViewViewController.h */,
-				35DEEFB31F14863D00F1B62E /* MYWebViewViewController.m */,
-				35DEEFB51F14AB8C00F1B62E /* MYDownLoadViewController.h */,
-				35DEEFB61F14AB8C00F1B62E /* MYDownLoadViewController.m */,
-			);
-			path = webView;
-			sourceTree = "<group>";
-		};
 		35F3BB591E5D77550066773A /* TestClass */ = {
 			isa = PBXGroup;
 			children = (
-				35F3BBAE1E5D77550066773A /* SystemControls */,
-				35F3BB5A1E5D77550066773A /* CustomControls */,
-				35F3BBBD1E5D77550066773A /* UIEffect */,
-				35F3BB9F1E5D77550066773A /* navanimation */,
+				351F8B141E6926E3008763B7 /* MYCameraViewController */,
+				35F3BB5B1E5D77550066773A /* TransitionsAnimationBeganViewController */,
+				35F3BB5E1E5D77550066773A /* MYCalendarViewController */,
+				35F3BB6A1E5D77550066773A /* GMPhotosViewController */,
+				35F3BB771E5D77550066773A /* GMPostViewController */,
+				35F3BB8F1E5D77550066773A /* MYShufflingViewController */,
+				35F3BB961E5D77550066773A /* CGAffineTransformViewController */,
+				35F3BB9F1E5D77550066773A /* MYAnimatedStartViewController */,
+				35F3BBB21E5D77550066773A /* GMShowSegmentedViewController */,
+				35F3BBB51E5D77550066773A /* MYBezierPathViewController */,
+				351BCB3E23D59810000CAF6C /* MYUnlockViewController */,
+				354C98F11FF62E1B00EA4BF3 /* GMHitViewViewController */,
 			);
 			path = TestClass;
 			sourceTree = "<group>";
 		};
-		35F3BB5A1E5D77550066773A /* CustomControls */ = {
-			isa = PBXGroup;
-			children = (
-				35DEEFB11F14862800F1B62E /* webView */,
-				351F8B141E6926E3008763B7 /* Camera */,
-				35F3BB5B1E5D77550066773A /* AnimatedTransitions */,
-				35F3BB5E1E5D77550066773A /* Calendar */,
-				35F3BB671E5D77550066773A /* Indicator */,
-				35F3BB6A1E5D77550066773A /* PhotoAlbum */,
-				35F3BB771E5D77550066773A /* PictureBrowser */,
-				35F3BB861E5D77550066773A /* Rotary */,
-				35F3BB8F1E5D77550066773A /* Shuffling */,
-				35F3BB961E5D77550066773A /* SwitchTableView */,
-			);
-			path = CustomControls;
-			sourceTree = "<group>";
-		};
-		35F3BB5B1E5D77550066773A /* AnimatedTransitions */ = {
+		35F3BB5B1E5D77550066773A /* TransitionsAnimationBeganViewController */ = {
 			isa = PBXGroup;
 			children = (
 				35F3BB5C1E5D77550066773A /* TransitionsAnimationBeganViewController.h */,
 				35F3BB5D1E5D77550066773A /* TransitionsAnimationBeganViewController.m */,
 			);
-			path = AnimatedTransitions;
+			path = TransitionsAnimationBeganViewController;
 			sourceTree = "<group>";
 		};
-		35F3BB5E1E5D77550066773A /* Calendar */ = {
+		35F3BB5E1E5D77550066773A /* MYCalendarViewController */ = {
 			isa = PBXGroup;
 			children = (
 				35F3BB631E5D77550066773A /* MYCalendarViewController.h */,
@@ -484,76 +356,42 @@
 				35F3BB651E5D77550066773A /* NSCalendar+MYCalendarTool.h */,
 				35F3BB661E5D77550066773A /* NSCalendar+MYCalendarTool.m */,
 			);
-			path = Calendar;
+			path = MYCalendarViewController;
 			sourceTree = "<group>";
 		};
-		35F3BB671E5D77550066773A /* Indicator */ = {
+		35F3BB6A1E5D77550066773A /* GMPhotosViewController */ = {
 			isa = PBXGroup;
 			children = (
-				35F3BB681E5D77550066773A /* MYIndicatorView.h */,
-				35F3BB691E5D77550066773A /* MYIndicatorView.m */,
-				35F3BBEE1E5D78D40066773A /* MYIndicatorViewController.h */,
-				35F3BBEF1E5D78D40066773A /* MYIndicatorViewController.m */,
-			);
-			path = Indicator;
-			sourceTree = "<group>";
-		};
-		35F3BB6A1E5D77550066773A /* PhotoAlbum */ = {
-			isa = PBXGroup;
-			children = (
-				35F3BB6B1E5D77550066773A /* GMCollectionView.h */,
-				35F3BB6C1E5D77550066773A /* GMCollectionView.m */,
 				35F3BB6D1E5D77550066773A /* GMPhotosCollectionViewCell.h */,
 				35F3BB6E1E5D77550066773A /* GMPhotosCollectionViewCell.m */,
 				35F3BB6F1E5D77550066773A /* GMPhotosUtils.h */,
 				35F3BB701E5D77550066773A /* GMPhotosUtils.m */,
 				35F3BB711E5D77550066773A /* GMPhotosViewController.h */,
 				35F3BB721E5D77550066773A /* GMPhotosViewController.m */,
-				35F3BB731E5D77550066773A /* GMProgressView.h */,
-				35F3BB741E5D77550066773A /* GMProgressView.m */,
-				35F3BB751E5D77550066773A /* MYPhotosViewController.h */,
-				35F3BB761E5D77550066773A /* MYPhotosViewController.m */,
 			);
-			path = PhotoAlbum;
+			path = GMPhotosViewController;
 			sourceTree = "<group>";
 		};
-		35F3BB771E5D77550066773A /* PictureBrowser */ = {
+		35F3BB771E5D77550066773A /* GMPostViewController */ = {
 			isa = PBXGroup;
 			children = (
 				35F3BB781E5D77550066773A /* GMIconItem.h */,
 				35F3BB791E5D77550066773A /* GMIconItem.m */,
 				35F3BB7A1E5D77550066773A /* GMImageAnimatedTransitioning.h */,
 				35F3BB7B1E5D77550066773A /* GMImageAnimatedTransitioning.m */,
-				35F3BB7C1E5D77550066773A /* GMInteractiveTransition.h */,
-				35F3BB7D1E5D77550066773A /* GMInteractiveTransition.m */,
-				35F3BB7E1E5D77550066773A /* GMPictureBrowserViewController.h */,
-				35F3BB7F1E5D77550066773A /* GMPictureBrowserViewController.m */,
 				35F3BB801E5D77550066773A /* GMPictureSwitchView.h */,
 				35F3BB811E5D77550066773A /* GMPictureSwitchView.m */,
+				35F3BB7E1E5D77550066773A /* GMPictureBrowserViewController.h */,
+				35F3BB7F1E5D77550066773A /* GMPictureBrowserViewController.m */,
 				35F3BB821E5D77550066773A /* GMPostTableViewCell.h */,
 				35F3BB831E5D77550066773A /* GMPostTableViewCell.m */,
 				35F3BB841E5D77550066773A /* GMPostViewController.h */,
 				35F3BB851E5D77550066773A /* GMPostViewController.m */,
 			);
-			path = PictureBrowser;
+			path = GMPostViewController;
 			sourceTree = "<group>";
 		};
-		35F3BB861E5D77550066773A /* Rotary */ = {
-			isa = PBXGroup;
-			children = (
-				35F3BB871E5D77550066773A /* MYCIFilterViewController.h */,
-				35F3BB881E5D77550066773A /* MYCIFilterViewController.m */,
-				35F3BB891E5D77550066773A /* MYRotaryView.h */,
-				35F3BB8A1E5D77550066773A /* MYRotaryView.m */,
-				35F3BB8B1E5D77550066773A /* MYRotaryViewController.h */,
-				35F3BB8C1E5D77550066773A /* MYRotaryViewController.m */,
-				35F3BB8D1E5D77550066773A /* myview.h */,
-				35F3BB8E1E5D77550066773A /* myview.m */,
-			);
-			path = Rotary;
-			sourceTree = "<group>";
-		};
-		35F3BB8F1E5D77550066773A /* Shuffling */ = {
+		35F3BB8F1E5D77550066773A /* MYShufflingViewController */ = {
 			isa = PBXGroup;
 			children = (
 				35F3BB901E5D77550066773A /* GMShufflingView.h */,
@@ -563,10 +401,10 @@
 				35F3BB941E5D77550066773A /* MYShufflingViewController.h */,
 				35F3BB951E5D77550066773A /* MYShufflingViewController.m */,
 			);
-			path = Shuffling;
+			path = MYShufflingViewController;
 			sourceTree = "<group>";
 		};
-		35F3BB961E5D77550066773A /* SwitchTableView */ = {
+		35F3BB961E5D77550066773A /* CGAffineTransformViewController */ = {
 			isa = PBXGroup;
 			children = (
 				35F3BB971E5D77550066773A /* CGAffineTransformViewController.h */,
@@ -578,10 +416,10 @@
 				35F3BB9D1E5D77550066773A /* TouchTableView.h */,
 				35F3BB9E1E5D77550066773A /* TouchTableView.m */,
 			);
-			path = SwitchTableView;
+			path = CGAffineTransformViewController;
 			sourceTree = "<group>";
 		};
-		35F3BB9F1E5D77550066773A /* navanimation */ = {
+		35F3BB9F1E5D77550066773A /* MYAnimatedStartViewController */ = {
 			isa = PBXGroup;
 			children = (
 				35F3BBA01E5D77550066773A /* MYAnimatedEndViewController.h */,
@@ -590,80 +428,26 @@
 				35F3BBA31E5D77550066773A /* MYAnimatedStartViewController.m */,
 				35F3BBA41E5D77550066773A /* MYAnimatedTransitioning.h */,
 				35F3BBA51E5D77550066773A /* MYAnimatedTransitioning.m */,
-				35F3BBA61E5D77550066773A /* MYGradientViewController.h */,
-				35F3BBA71E5D77550066773A /* MYGradientViewController.m */,
-				35F3BBA81E5D77550066773A /* MYHiddenNavViewController.h */,
-				35F3BBA91E5D77550066773A /* MYHiddenNavViewController.m */,
-				35F3BBAA1E5D77550066773A /* MYLasetViewController.h */,
-				35F3BBAB1E5D77550066773A /* MYLasetViewController.m */,
-				35F3BBAC1E5D77550066773A /* MYNavigationController.h */,
-				35F3BBAD1E5D77550066773A /* MYNavigationController.m */,
 			);
-			path = navanimation;
+			path = MYAnimatedStartViewController;
 			sourceTree = "<group>";
 		};
-		35F3BBAE1E5D77550066773A /* SystemControls */ = {
+		35F3BBB21E5D77550066773A /* GMShowSegmentedViewController */ = {
 			isa = PBXGroup;
 			children = (
-				35F3BBAF1E5D77550066773A /* AddressBook */,
-				35F3BBB21E5D77550066773A /* Collection */,
-				35F3BBB51E5D77550066773A /* UIBezierPath */,
-				35F3BBB81E5D77550066773A /* UISearchBar */,
+				35F3BBB31E5D77550066773A /* GMShowSegmentedViewController.h */,
+				35F3BBB41E5D77550066773A /* GMShowSegmentedViewController.m */,
 			);
-			path = SystemControls;
+			path = GMShowSegmentedViewController;
 			sourceTree = "<group>";
 		};
-		35F3BBAF1E5D77550066773A /* AddressBook */ = {
-			isa = PBXGroup;
-			children = (
-				35F3BBB01E5D77550066773A /* MYContactTableViewController.h */,
-				35F3BBB11E5D77550066773A /* MYContactTableViewController.m */,
-			);
-			path = AddressBook;
-			sourceTree = "<group>";
-		};
-		35F3BBB21E5D77550066773A /* Collection */ = {
-			isa = PBXGroup;
-			children = (
-				35F3BBB31E5D77550066773A /* YXMyCollectionViewController.h */,
-				35F3BBB41E5D77550066773A /* YXMyCollectionViewController.m */,
-			);
-			path = Collection;
-			sourceTree = "<group>";
-		};
-		35F3BBB51E5D77550066773A /* UIBezierPath */ = {
+		35F3BBB51E5D77550066773A /* MYBezierPathViewController */ = {
 			isa = PBXGroup;
 			children = (
 				35F3BBB61E5D77550066773A /* MYBezierPathViewController.h */,
 				35F3BBB71E5D77550066773A /* MYBezierPathViewController.m */,
 			);
-			path = UIBezierPath;
-			sourceTree = "<group>";
-		};
-		35F3BBB81E5D77550066773A /* UISearchBar */ = {
-			isa = PBXGroup;
-			children = (
-				35F3BBB91E5D77550066773A /* MYUISearchBar.h */,
-				35F3BBBA1E5D77550066773A /* MYUISearchBar.m */,
-				35F3BBBB1E5D77550066773A /* SearchController.h */,
-				35F3BBBC1E5D77550066773A /* SearchController.m */,
-			);
-			path = UISearchBar;
-			sourceTree = "<group>";
-		};
-		35F3BBBD1E5D77550066773A /* UIEffect */ = {
-			isa = PBXGroup;
-			children = (
-				35C3285C1FFCCF2C009187D5 /* Observer */,
-				3528E5E61FFB9C21007A7FC2 /* timer */,
-				3528E5DE1FFB2B8C007A7FC2 /* gcd */,
-				354C98F11FF62E1B00EA4BF3 /*  hitTestView */,
-				35F3BBBE1E5D77550066773A /* MYtestDocumentsViewController.h */,
-				35F3BBBF1E5D77550066773A /* MYtestDocumentsViewController.m */,
-				35F3BBC01E5D77550066773A /* MYUnlockViewController.h */,
-				35F3BBC11E5D77550066773A /* MYUnlockViewController.m */,
-			);
-			path = UIEffect;
+			path = MYBezierPathViewController;
 			sourceTree = "<group>";
 		};
 		3DA2162763C0913BEA9E3634 /* Frameworks */ = {
@@ -711,12 +495,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = GM;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = lemonmgy;
 				TargetAttributes = {
 					355D07EA1E34519E001C6195 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = M2SCEZCPAN;
+						DevelopmentTeam = EXTR923J93;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -726,6 +510,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -754,7 +539,6 @@
 				355D07FB1E34519E001C6195 /* Assets.xcassets in Resources */,
 				355D08A41E3451F7001C6195 /* icon2.jpg in Resources */,
 				355D08A61E3451F7001C6195 /* icon4.jpg in Resources */,
-				35ACDC641E6D06CC00DC8A11 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -791,67 +575,42 @@
 				35F3BBDA1E5D77550066773A /* MYButton.m in Sources */,
 				355D08E21E345518001C6195 /* NSString+MYString.m in Sources */,
 				35790C172091DAAC00D09674 /* GMAlert.m in Sources */,
-				35F3BBE51E5D77550066773A /* MYLasetViewController.m in Sources */,
 				35F3BBDC1E5D77550066773A /* CGAffineTransformViewController.m in Sources */,
-				3528E5E91FFB9C2E007A7FC2 /* GMTimerViewController.m in Sources */,
 				355D07F31E34519E001C6195 /* AppDelegate.m in Sources */,
 				35F3BBD21E5D77550066773A /* GMPictureSwitchView.m in Sources */,
 				35F3BBCB1E5D77550066773A /* GMPhotosViewController.m in Sources */,
-				35F3BBE61E5D77550066773A /* MYNavigationController.m in Sources */,
 				35F3BBE91E5D77550066773A /* MYBezierPathViewController.m in Sources */,
 				35F3BBCE1E5D77550066773A /* GMIconItem.m in Sources */,
 				35F3BBD41E5D77550066773A /* GMPostViewController.m in Sources */,
-				35DEEFB41F14863D00F1B62E /* MYWebViewViewController.m in Sources */,
 				35790C142091DA3C00D09674 /* GMLog.m in Sources */,
 				35B99ED01F3975EB00BDA78C /* MYCalendarSwitchView.m in Sources */,
 				359C7878202AB82800D50072 /* UIButton+YX.m in Sources */,
-				35F3BBD01E5D77550066773A /* GMInteractiveTransition.m in Sources */,
-				35F3BBD81E5D77550066773A /* myview.m in Sources */,
 				354C98FD1FF639A600EA4BF3 /* GMHitBackButton.m in Sources */,
-				35C3285F1FFCCF36009187D5 /* GMObserverViewController.m in Sources */,
-				35F3BBD51E5D77550066773A /* MYCIFilterViewController.m in Sources */,
-				35F3BBC81E5D77550066773A /* GMCollectionView.m in Sources */,
 				35F3BBDE1E5D77550066773A /* PanViewController.m in Sources */,
 				35F3BBCA1E5D77550066773A /* GMPhotosUtils.m in Sources */,
 				354C98F71FF62F1A00EA4BF3 /* GMHitBackView.m in Sources */,
-				35F3BBEB1E5D77550066773A /* SearchController.m in Sources */,
-				35F3BBD71E5D77550066773A /* MYRotaryViewController.m in Sources */,
 				354C98FA1FF62F2900EA4BF3 /* GMHitCenterView.m in Sources */,
 				355D08971E3451F7001C6195 /* BaseViewController.m in Sources */,
-				35F3BBE81E5D77550066773A /* YXMyCollectionViewController.m in Sources */,
-				35F3BBC71E5D77550066773A /* MYIndicatorView.m in Sources */,
+				35F3BBE81E5D77550066773A /* GMShowSegmentedViewController.m in Sources */,
 				351F8B1C1E694AB3008763B7 /* MYMediaTools.m in Sources */,
 				35F3BBC61E5D77550066773A /* NSCalendar+MYCalendarTool.m in Sources */,
 				355D07F01E34519E001C6195 /* main.m in Sources */,
-				355D08991E3451F7001C6195 /* MainViewController.m in Sources */,
+				355D08991E3451F7001C6195 /* GMCaseListViewController.m in Sources */,
 				35F3BBE01E5D77550066773A /* MYAnimatedEndViewController.m in Sources */,
 				351F8B181E6926E3008763B7 /* MYCameraViewController.m in Sources */,
-				35F3BBF01E5D78D40066773A /* MYIndicatorViewController.m in Sources */,
-				3528E5E41FFB2DD0007A7FC2 /* UIViewController+GMExchangeMethod.m in Sources */,
 				35F3BBE11E5D77550066773A /* MYAnimatedStartViewController.m in Sources */,
 				35F3BBDB1E5D77550066773A /* MYShufflingViewController.m in Sources */,
-				35F3BBE41E5D77550066773A /* MYHiddenNavViewController.m in Sources */,
 				355D08E31E345518001C6195 /* UIViewController+MYPush.m in Sources */,
-				35F3BBCD1E5D77550066773A /* MYPhotosViewController.m in Sources */,
-				35F3BBEA1E5D77550066773A /* MYUISearchBar.m in Sources */,
 				354C98F41FF62E4800EA4BF3 /* GMHitViewViewController.m in Sources */,
 				35F3BBD31E5D77550066773A /* GMPostTableViewCell.m in Sources */,
 				35F3BBED1E5D77550066773A /* MYUnlockViewController.m in Sources */,
 				35790C352092F8AD00D09674 /* GMHelper.m in Sources */,
 				35F3BBC21E5D77550066773A /* TransitionsAnimationBeganViewController.m in Sources */,
-				35F3BBD61E5D77550066773A /* MYRotaryView.m in Sources */,
-				3528E5E11FFB2B9F007A7FC2 /* GMGCDViewController.m in Sources */,
-				35F3BBCC1E5D77550066773A /* GMProgressView.m in Sources */,
-				355D089A1E3451F7001C6195 /* MYEntranceViewController.m in Sources */,
 				35F3BBD11E5D77550066773A /* GMPictureBrowserViewController.m in Sources */,
 				35F3BBDF1E5D77550066773A /* TouchTableView.m in Sources */,
-				35F3BBEC1E5D77550066773A /* MYtestDocumentsViewController.m in Sources */,
-				35F3BBE71E5D77550066773A /* MYContactTableViewController.m in Sources */,
 				35F3BBCF1E5D77550066773A /* GMImageAnimatedTransitioning.m in Sources */,
 				35F3BBE21E5D77550066773A /* MYAnimatedTransitioning.m in Sources */,
-				35DEEFB71F14AB8C00F1B62E /* MYDownLoadViewController.m in Sources */,
 				35F3BBC91E5D77550066773A /* GMPhotosCollectionViewCell.m in Sources */,
-				35F3BBE31E5D77550066773A /* MYGradientViewController.m in Sources */,
 				35F3BBDD1E5D77550066773A /* PanTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -863,6 +622,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -918,6 +678,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -968,12 +729,12 @@
 			baseConfigurationReference = B774807E16996AF9D2C3B5BA /* Pods-gmTestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M2SCEZCPAN;
+				DEVELOPMENT_TEAM = EXTR923J93;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/gmTestDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = gmTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lemonmgy.gmTestDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.testdemoz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WARNING_CFLAGS = "-Wno-documentation";
@@ -985,12 +746,12 @@
 			baseConfigurationReference = BAD8C7122B655B977E38D53C /* Pods-gmTestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M2SCEZCPAN;
+				DEVELOPMENT_TEAM = EXTR923J93;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/gmTestDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = gmTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lemonmgy.gmTestDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.testdemoz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WARNING_CFLAGS = "-Wno-documentation";
